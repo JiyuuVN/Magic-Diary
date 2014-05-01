@@ -1,0 +1,601 @@
+<poem>
+<00000120:000002AC>
+
+import os
+os.environ['SDL_VIDEO_CENTERED'] = '1'
+def missing_image_callback(s):
+    if not renpy.loadable(s + ".base.jpg"):
+        return None
+    if not renpy.loadable(s + ".mask.jpg"):
+        return None
+    return im.AlphaMask(im.Image(s + ".base.jpg", cache=False),
+                            im.Image(s + ".mask.jpg", cache=False))
+config.missing_image_callback = missing_image_callback
+
+
+<0000037B:000008B8>
+
+
+attributes= [40,60,40,50,50,50,50,50,50,50]
+new_attributes= [40,60,40,50,50,50,50,50,50,50]
+PMichael=0; PSam=1; PJill=2; PSusana=3; PMarian=4; PClara=5;
+
+base = Position(yalign=1.0)
+baseleft = Position(yalign=1.0,xalign=0)
+baseright = Position(yalign=1.0,xalign=1.0)
+top = Position(yalign=0.0)
+topleft = Position(yalign=0,xalign=0)
+topright = Position(yalign=0,xalign=1.0)
+leftmd = Position(yalign=0.5,xalign=0.2)
+rightmd = Position(yalign=0.5,xalign=0.8)
+
+style.my_bar = Style(style.default)
+style.my_bar.left_bar = Frame("gfx/bar_full.png", 20, 20)
+style.my_bar.right_bar = Frame("gfx/bar_empty.png", 20, 20)
+style.my_bar.xmaximum = 512 
+style.my_bar.ymaximum = 128 
+es=-1
+def zoom(start, end, time):
+    return FactorZoom(start, end, time, opaque=False, anim_timebase=True)
+def scale(factor):
+    return FactorZoom(factor, factor, 0, opaque=False)
+def overlay():
+    ui.keymap(c=renpy.curried_call_in_new_context("cheatmaster"))
+
+
+config.overlay_functions.append(overlay)
+
+def showmypic(mypic,x=0.5,y=1.0,z=0.8,p=1):
+    if p==1:
+        renpy.show(mypic, [FactorZoom(z, z, 0.6, opaque=False, anim_timebase=True),Position(xpos=x,ypos=y)])
+        renpy.with_statement(dissolve)
+    else:
+        renpy.show(mypic, [FactorZoom(z, z, 0.2, opaque=False, anim_timebase=True),Position(xpos=x,ypos=y)])
+        renpy.with_statement(dissolve)
+
+
+<00000972:00000FE0>
+
+
+def attitudestr(i):
+    if i<=19:
+        return "Very Bad"
+    elif i<=39:
+        return "Bad"
+    elif i<=60:
+        return "Neutral"
+    elif i<=80:
+        return "Good"
+    else:
+        return "Very Good"
+def showemo(id):
+    ui.frame(xpos=128,ypos=600,xmaximum=768,ymaximum=128,top_padding=2,right_padding=2,left_padding=2,style="default")
+    ui.image("gfx/emo%02db.png" % (id+1),xpos=-50,ypos=-50)
+    ui.bar(100,attributes[id], step=20, xalign=0.5,ypos=590, style='my_bar')
+    ui.textbutton("{color=#FFF}Relationship\n{size=32}"+attitudestr(attributes[id])+"{/size}{/color}",xalign=0.5,ypos=600,xminimum=500,style="default")
+    ui.image("gfx/emo%02da.png" % (id+1),xpos=763,ypos=550)
+def showstats(id):
+    renpy.transition(dissolve)
+    new_attributes[id]=int(new_attributes[id])
+    if new_attributes[id]>attributes[id]:
+        renpy.sound.play("snd/ok.ogg")
+    else:
+        renpy.sound.play("snd/bad.ogg")
+    while True:
+        showemo(id)
+        ok=1
+        renpy.pause(0.1)
+        if new_attributes[id]<1:
+            new_attributes[id]=1
+        if new_attributes[id]>100:
+            new_attributes[id]=100
+        if new_attributes[id]>attributes[id]:
+            if new_attributes[id]-attributes[id]>1:
+                attributes[id]+=2
+            else:
+                attributes[id]+=1
+            ok=0
+        elif new_attributes[id]<attributes[id]:
+            if attributes[id]-new_attributes[id]>1:
+                attributes[id]-=2
+            else:
+                attributes[id]-=1
+            ok=0
+        if ok==1:
+            break
+    showemo(id)
+    renpy.pause(2.5)
+    renpy.transition(dissolve)
+
+
+<00001073:0000107F>
+splashscreen
+
+<000010BC:000010C7>
+showbar = 0
+
+<00001162:0000117D>
+renpy.choice_for_skipping()
+
+<000011C9:000013A5>
+
+
+preloading=("bg03","bg04","bg05","bg07","bg09","001_Kitchen","background001_library","003_Bed")
+for fname in preloading:
+    fname =  'gfx/bg/' + fname +".jpg"
+    renpy.cache_pin(fname)
+
+preloading=("jill_normal","jill2_normal","susana_normal","susana2_normal","clara_1_normal","clara_1_sad","clara_2_normal","clara_2_sad","marian_surprised1","marian_sad","marian_angry1","uncle_normal","uncle_cat_normal")
+for n1 in preloading:
+    renpy.cache_pin("gfx/chars/"+n1+".png")
+
+
+<00001401:00001407>
+splash
+
+<00001412:0000141C>
+truecenter
+
+<00001465:00001469>
+text
+
+<0000146E:00001487>
+"Loading, please wait..."
+
+<00001492:000014B2>
+Position(xalign=0.5,yalign=0.65)
+
+<00001511:0000151A>
+dissolve 
+
+<00001555:0000155F>
+Pause(3.0)
+
+<00001595:00001599>
+text
+
+<000015D3:000015D9>
+splash
+
+<00001620:00001628>
+dissolve
+
+<0000164E:00001652>
+text
+
+<00001657:00001686>
+"A game about love, friendship, and...flowers!"
+
+<0000170B:00001713>
+dissolve
+
+<00001746:00001750>
+Pause(3.0)
+
+<00001776:0000177A>
+text
+
+<000017C1:000017C9>
+dissolve
+
+<000017F7:00001802>
+showbar = 1
+
+<00001891:0000189C>
+cheatmaster
+
+<000018CD:000018D5>
+demo = 0
+
+<00001921:00001970>
+Sstats=["Culture",99,"Coolness",99,"Romance",99,"Determination",99,"Health",80]
+
+<000019E1:000019E7>
+buynow
+
+<00001A18:00001A33>
+renpy.choice_for_skipping()
+
+<00001A7F:00001A8A>
+in_quest =1
+
+<00001ADF:00001AE5>
+titles
+
+<00001B2D:00001B33>
+text_b
+
+<00001B38:00001B4B>
+"End Of Demo{p}..."
+
+<00001B95:00001B9D>
+dissolve
+
+<00001BD0:00001BDA>
+Pause(5.0)
+
+<00001C00:00001C06>
+text_b
+
+<00001C40:00001C45>
+black
+
+<00001C8E:00001CB5>
+showmypic("marie end",x=0.8,z=0.85,p=0)
+
+<00001D14:00001D1C>
+dissolve
+
+<00001D3B:00001D3F>
+text
+
+<00001D44:00001DBE>
+"{size=32}Will Heileen save Marie from falling down?{p}There's something more between them{p}than just friendship?{/size}"
+
+<00001DC9:00001DE6>
+Position(xpos=0.3,ypos=0.55) 
+
+<00001E58:00001E65>
+renpy.pause()
+
+<00001EA9:00001EAE>
+black
+
+<00001EF7:00001F1D>
+showmypic("lora end",x=0.23,z=0.9,p=0)
+
+<00001F76:00001F7E>
+dissolve
+
+<00001F9D:00001FA1>
+text
+
+<00001FA6:00001FFC>
+"{size=32}Is Lora hiding something? {p}Why she is always so kind with Heileen?{/size}"
+
+<00002007:00002024>
+Position(xpos=0.7,ypos=0.55) 
+
+<0000209F:000020AC>
+renpy.pause()
+
+<000020FF:00002104>
+black
+
+<0000215C:00002182>
+showmypic("john end",x=0.8,z=0.85,p=0)
+
+<000021ED:000021F5>
+dissolve
+
+<0000221D:00002221>
+text
+
+<00002226:0000227F>
+"{size=32}And John? Does he love Heileen, {p}or for him she is just another girl?{/size}"
+
+<0000228D:000022AA>
+Position(xpos=0.3,ypos=0.55) 
+
+<0000233A:00002347>
+renpy.pause()
+
+<0000239A:0000239F>
+black
+
+<000023F7:0000241E>
+showmypic("black end",x=0.23,z=0.9,p=0)
+
+<00002489:00002491>
+dissolve
+
+<000024B9:000024BD>
+text
+
+<000024C2:0000255A>
+"{size=32}There's only one way to find it out...{p}Buy the full game!{p}Many new characters, quests,choices,{p}funny and sad moments awaits you!{/size}"
+
+<00002568:00002585>
+Position(xpos=0.7,ypos=0.55) 
+
+<00002615:00002622>
+renpy.pause()
+
+<00002678:0000267F>
+credits
+
+<000026BF:000026DA>
+renpy.music.stop(fadeout=2)
+
+<00002788:00002790>
+dissolve
+
+<000027B8:000027BD>
+black
+
+<0000284A:0000284E>
+text
+
+<00002853:000028E8>
+"{size=32}\"When you have only two pennies left in the world, buy a loaf of bread with one, and a lily with the other.\"{/size}{p}- Chinese Proverb "
+
+<000028F6:00002915>
+Position(xalign=0.5,yalign=0.5)
+
+<000029AE:000029B6>
+dissolve
+
+<000029F0:000029FD>
+renpy.pause()
+
+<00002AAB:00002AB3>
+dissolve
+
+<00002ADB:00002AE0>
+text1
+
+<00002BAE:00002BFF>
+renpy.music.play("snd/lateafternoonrain.ogg", loop=True, fadeout=0.5 ,fadein=0.5)
+
+<00002C70:00002C78>
+dissolve
+
+<00002CA0:00002CA5>
+black
+
+<00002D32:00002D3A>
+i_susana
+
+<00002D3F:00002D42>
+aww
+
+<00002D51:00002D5A>
+scale(.5)
+
+<00002D64:00002D6C>
+topright
+
+<00002DF7:00002DFB>
+text
+
+<00002E00:00002E33>
+"Screenplay, Gameplay{p}{size=32}Ayu Sakata{/size}"
+
+<00002E41:00002E47>
+leftmd
+
+<00002F1D:00002F25>
+dissolve
+
+<00002F5F:00002F6F>
+renpy.pause(5.0)
+
+<0000301D:00003025>
+dissolve
+
+<0000304D:00003052>
+black
+
+<000030DF:000030E6>
+i_uncle
+
+<000030EB:000030EE>
+cat
+
+<000030F3:000030F9>
+happy1
+
+<00003108:00003111>
+scale(.5)
+
+<0000311B:00003123>
+topleft 
+
+<00003171:00003175>
+text
+
+<0000317A:000031D9>
+"Original Concept, Programming,{p}Interface, Farming Sim Gameplay{p}{size=32}Celso Riva{/size}"
+
+<000031E7:000031EE>
+rightmd
+
+<0000328C:00003294>
+dissolve
+
+<000032CE:000032DE>
+renpy.pause(5.0)
+
+<0000334F:00003357>
+dissolve
+
+<0000337F:00003384>
+black
+
+<00003411:00003419>
+i_marian
+
+<0000341E:00003424>
+blush2
+
+<00003433:0000343C>
+scale(.5)
+
+<00003446:0000344E>
+topright
+
+<0000349C:000034A0>
+text
+
+<000034A5:000034D8>
+"Character Art{p}{size=32}M. Beatriz Garcia{/size}"
+
+<000034E6:000034EC>
+leftmd
+
+<00003585:0000358D>
+dissolve
+
+<000035C7:000035D7>
+renpy.pause(5.0)
+
+<00003685:0000368D>
+dissolve
+
+<000036B5:000036BA>
+black
+
+<00003747:0000374F>
+i_father
+
+<00003754:0000375D>
+surprised
+
+<0000376C:00003775>
+scale(.5)
+
+<0000377F:00003787>
+topleft 
+
+<000037D5:000037D9>
+text
+
+<000037DE:00003811>
+"Backgrounds{p}{size=32}Mazjojo{p}S.Mujiono{/size}"
+
+<0000381F:00003826>
+rightmd
+
+<00003887:0000388F>
+dissolve
+
+<000038C9:000038D9>
+renpy.pause(5.0)
+
+<0000394A:00003952>
+dissolve
+
+<0000397A:0000397F>
+black
+
+<00003A0C:00003A19>
+i_clarasporty
+
+<00003A1E:00003A21>
+aww
+
+<00003A30:00003A39>
+scale(.5)
+
+<00003A43:00003A4B>
+topright
+
+<00003AD1:00003AD5>
+text
+
+<00003ADA:00003B0C>
+"Farming Sim Art{p}{size=32}Rebecca Gunter{/size}"
+
+<00003B1A:00003B20>
+leftmd
+
+<00003B81:00003B89>
+dissolve
+
+<00003BC3:00003BD3>
+renpy.pause(5.0)
+
+<00003C44:00003C4C>
+dissolve
+
+<00003C74:00003C79>
+black
+
+<00003D06:00003D0C>
+i_jill
+
+<00003D11:00003D17>
+happy2
+
+<00003D26:00003D2F>
+scale(.5)
+
+<00003D39:00003D41>
+topleft 
+
+<00003D8F:00003D93>
+text
+
+<00003D98:00003DD8>
+"Special Thanks{p}{size=32}Pytom\nLemmasoft\nThe Flowers{/size}"
+
+<00003DE6:00003DED>
+rightmd
+
+<00003E4E:00003E5A>
+dissolve    
+
+<00003E94:00003EA4>
+renpy.pause(5.0)
+
+<00003F15:00003F1D>
+dissolve
+
+<00003F45:00003F4A>
+black
+
+<00003FD7:00003FDE>
+i_trent
+
+<00003FE3:00003FE8>
+angry
+
+<00003FF7:00004000>
+scale(.5)
+
+<0000400A:00004013>
+topright 
+
+<00004061:00004065>
+text
+
+<0000406A:00004092>
+"{size=32}A game by{p}Celso Riva{/size}"
+
+<000040A0:000040A6>
+leftmd
+
+<00004107:0000410F>
+dissolve
+
+<00004149:00004159>
+renpy.pause(5.0)
+
+<000041BA:000041D5>
+renpy.music.stop(fadeout=2)
+
+<000042BB:000042C3>
+dissolve
+
+<000042EB:000042F0>
+black
+
+<0000437D:00004381>
+text
+
+<00004386:000043C7>
+"{size=32}THE END{/size}\n\nTry again to see a different ending!"
+
+<000043D5:000043F4>
+Position(xalign=0.5,yalign=0.5)
+
+<0000448D:00004495>
+dissolve
+
+<000044CF:000044DF>
+renpy.pause(5.0)
+
+<00004540:00004552>
+renpy.pop_return()
+
+</poem>

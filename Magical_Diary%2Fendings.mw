@@ -1,0 +1,5732 @@
+<poem>
+<0000013F:00000143>
+fade
+
+<00000174:0000017B>
+i_alley
+
+<00000226:00000265>
+renpy.music.play("snd/sweetandquiet.ogg", loop=True,fadein=0.5)
+
+<00000300:0000035A>
+Today is a nice day, so I decide to take a walk and enjoy watching the leaves turn colors.
+
+<000003B3:000003EB>
+Summer is almost over...I guess I'll be going home soon.
+
+<00000424:00000442>
+I really will miss this place.
+
+<0000047B:000004BF>
+It's weird to think that when I first came here, I wanted to escape.
+
+<000004F8:00000528>
+But now...I wonder if I wouldn't mind staying...
+
+<00000590:000005A1>
+uncle_heartattack
+
+<000005C0:000005C8>
+aloneend
+
+<0000061D:00000625>
+dissolve
+
+<0000063D:00000646>
+i_kitchen
+
+<00000651:0000065B>
+scale(.5) 
+
+<000006BF:00000706>
+When I arrive back at the farm, Orpheus rushes to the door to greet me.
+
+<0000074C:0000075F>
+es=emo["surprised"]
+
+<000007BE:000007D7>
+voice "voices/ens000.ogg"
+
+<00000849:0000088E>
+Whoa, girl. What's up? You've never been this eager to see me before.
+
+<000008A8:000008AA>
+s2
+
+<000008CF:00000905>
+She paws at me frantically before running back inside.
+
+<0000093E:0000096F>
+I follow her, confused until I enter the kitchen.
+
+<000009B5:000009F2>
+renpy.music.play("snd/darkwaiting.ogg", loop=True,fadein=0.5)
+
+<00000A32:00000A4B>
+voice "voices/ens001.ogg"
+
+<00000A77:00000A83>
+Oh my God...
+
+<00000A9D:00000A9F>
+s2
+
+<00000AC4:00000AE7>
+Uncle is lying on the floor, still.
+
+<00000B20:00000B43>
+I rush to him and shake him gently.
+
+<00000B80:00000B99>
+voice "voices/ens002.ogg"
+
+<00000BC5:00000BD2>
+Uncle! Uncle!
+
+<00000BEC:00000BEE>
+s2
+
+<00000C13:00000C55>
+I place two fingers on the side of his neck, praying for the best.
+
+<00000C8E:00000CAF>
+I can still feel a faint pulse...
+
+<00000CE8:00000D21>
+I let out a sigh of relief, but I know it's not over yet.
+
+<00000D5E:00000D77>
+voice "voices/ens003.ogg"
+
+<00000DA3:00000DB4>
+What should I do?
+
+<00000DCE:00000DD0>
+s2
+
+<00000E3A:00000E43>
+claradate
+
+<00000E8D:00000E95>
+dissolve
+
+<00000EAD:00000EB3>
+i_farm
+
+<00000F18:00000F63>
+I rush from the house down the road to Clara's place and pound on her door.
+
+<00000FA0:00000FB9>
+voice "voices/ens004.ogg"
+
+<00000FE5:00000FF2>
+Clara! Clara!
+
+<0000100C:0000100E>
+s2
+
+<00001033:0000104C>
+She throws open the door.
+
+<0000109F:000010A7>
+dissolve
+
+<000010CF:000010D6>
+i_clara
+
+<000010DB:000010E4>
+surprised
+
+<000010F0:000010FA>
+scale(.85)
+
+<00001101:00001122>
+Position(xalign=0.5,yalign=-.02) 
+
+<00001186:0000119F>
+voice "voices/enc000.ogg"
+
+<000011CB:000011DF>
+Steve! What's wrong?
+
+<000011F9:000011FA>
+c
+
+<00001221:0000123A>
+voice "voices/ens005.ogg"
+
+<00001266:00001294>
+Something happened to Uncle! He's unconscious!
+
+<000012AE:000012B0>
+s2
+
+<000012D9:000012F2>
+voice "voices/enc001.ogg"
+
+<00001327:00001350>
+I'll call Susana! Go back and wait there!
+
+<00001370:00001371>
+c
+
+<000013B7:000013BF>
+dissolve
+
+<000013F3:000013FA>
+i_clara
+
+<000013FF:00001408>
+surprised
+
+<00001481:000014F6>
+Clara dashes back into her house and I wait outside for a few moments awkwardly before running back to the farmhouse.
+
+<00001572:0000157C>
+mariandate
+
+<000015BE:00001619>
+I pull out the slip of paper Marian gave me. It's smudged from the rain, but still legible.
+
+<0000165E:000016AC>
+I quickly dial Marian's number and wait impatiently as the phone rings once...
+
+<000016F1:000016F9>
+Twice...
+
+<0000174E:0000175D>
+es=emo["angry"]
+
+<000017AC:000017C5>
+voice "voices/ens006.ogg"
+
+<000017FD:00001805>
+Come on!
+
+<00001825:00001827>
+s2
+
+<00001855:0000186A>
+Finally, she answers.
+
+<000018B3:000018CC>
+voice "voices/enm000.ogg"
+
+<00001905:0000190F>
+i_libframe
+
+<0000191D:00001921>
+left
+
+<00001966:0000196E>
+i_marian
+
+<00001973:0000197A>
+normal1
+
+<00001989:00001992>
+scale(.8)
+
+<0000199C:000019BE>
+Position(xalign=-.15,yalign=-.05) 
+
+<00001A43:00001A4B>
+dissolve
+
+<00001A8A:00001A90>
+Hello?
+
+<00001AB0:00001AB1>
+m
+
+<00001AEA:00001AFD>
+es=emo["surprised"]
+
+<00001B4C:00001B65>
+voice "voices/ens007.ogg"
+
+<00001B9D:00001BC4>
+Marian! I need help! Uncle's collapsed!
+
+<00001BE4:00001BE6>
+s2
+
+<00001C18:00001C31>
+voice "voices/enm001.ogg"
+
+<00001C89:00001C91>
+dissolve
+
+<00001CB2:00001CBA>
+i_marian
+
+<00001CBF:00001CC9>
+surprised1
+
+<00001CD8:00001CE1>
+scale(.8)
+
+<00001CEB:00001D0C>
+Position(xalign=-.2,yalign=-.05) 
+
+<00001D8D:00001DBB>
+Sam! Steve, stay with him. I'll be there soon.
+
+<00001DDB:00001DDC>
+m
+
+<00001E25:00001E2D>
+dissolve
+
+<00001E51:00001E59>
+i_marian
+
+<00001E5E:00001E68>
+surprised1
+
+<00001F00:00001F2D>
+I rush to the phone and dial Susana's number.
+
+<00001F76:00001F8F>
+voice "voices/ent000.ogg"
+
+<00001FC8:00001FD5>
+i_flowerframe
+
+<00001FE3:00001FE7>
+left
+
+<0000202C:00002033>
+i_trent
+
+<00002042:0000204B>
+scale(.9)
+
+<00002055:00002076>
+Position(xalign=-.1,yalign=-.03) 
+
+<000020BD:000020C5>
+dissolve
+
+<00002104:0000210A>
+Hello?
+
+<0000212A:0000212B>
+t
+
+<00002164:00002177>
+es=emo["surprised"]
+
+<000021C6:000021DF>
+voice "voices/ens008.ogg"
+
+<00002217:0000222E>
+Trent! Is Susana there?
+
+<0000224E:00002250>
+s2
+
+<000022A2:000022AC>
+susanadate
+
+<000022F2:0000230B>
+voice "voices/ent001.ogg"
+
+<00002366:0000236E>
+dissolve
+
+<0000238F:00002396>
+i_trent
+
+<0000239B:000023A2>
+worried
+
+<000023B1:000023BA>
+scale(.9)
+
+<000023C4:000023E5>
+Position(xalign=-.1,yalign=-.03) 
+
+<00002466:0000248C>
+Um...she's still asleep. What's wrong?
+
+<000024AF:000024B0>
+t
+
+<000024E8:00002501>
+voice "voices/ens009.ogg"
+
+<00002539:00002566>
+Uncle's unconscious! I don't know what to do.
+
+<00002586:00002588>
+s2
+
+<000025BA:000025D3>
+voice "voices/ent002.ogg"
+
+<0000262B:00002633>
+dissolve
+
+<00002654:0000265B>
+i_trent
+
+<00002660:00002669>
+surprised
+
+<00002678:00002681>
+scale(.9)
+
+<0000268B:000026AC>
+Position(xalign=-.1,yalign=-.03) 
+
+<0000272D:00002741>
+We'll be there soon.
+
+<00002761:00002762>
+t
+
+<000027AB:000027B3>
+dissolve
+
+<000027D7:000027DE>
+i_trent
+
+<000027E3:000027EC>
+surprised
+
+<00002881:0000288A>
+aftercall
+
+<000028AF:000028C0>
+uncle_heartattack
+
+<0000291E:00002926>
+dissolve
+
+<00002947:00002950>
+i_kitchen
+
+<0000295E:00002968>
+scale(.5) 
+
+<000029E7:00002A22>
+I pace back and forth in the kitchen, unsure of what to do.
+
+<00002A67:00002A9F>
+Orpheus paces with me, casting worried glances at Uncle.
+
+<00002AE4:00002AFF>
+Finally I kneel beside him.
+
+<00002B54:00002B64>
+es=emo["normal"]
+
+<00002BB3:00002BCC>
+voice "voices/ens010.ogg"
+
+<00002C04:00002C25>
+It's okay, Uncle! You'll be okay!
+
+<00002C45:00002C47>
+s2
+
+<00002C75:00002CB2>
+Even as I tell him this, I'm not sure if it's even the truth.
+
+<00002CF7:00002D2F>
+The front door bursts open and Susana and Trent rush in.
+
+<00002D75:00002D7D>
+i_susana
+
+<00002D82:00002D8B>
+surprised
+
+<00002D9A:00002DA4>
+scale(.55)
+
+<00002DAE:00002DCC>
+Position(xalign=.1,yalign=-.4)
+
+<00002E11:00002E18>
+i_trent
+
+<00002E1D:00002E24>
+worried
+
+<00002E33:00002E3D>
+scale(.55)
+
+<00002E47:00002E67>
+Position(xalign=.75,yalign=-.25)
+
+<00002EAE:00002EB6>
+dissolve
+
+<00002EF6:00002F10>
+voice "voices/ensu000.ogg"
+
+<00002F48:00002F56>
+Oh no...Trent!
+
+<00002F76:00002F78>
+su
+
+<00002FAA:00002FC3>
+voice "voices/ent003.ogg"
+
+<0000301B:00003023>
+dissolve
+
+<00003044:0000304B>
+i_trent
+
+<00003050:00003053>
+sad
+
+<00003062:0000306C>
+scale(.55)
+
+<00003076:00003097>
+Position(xalign=.75,yalign=-.25) 
+
+<00003118:0000311F>
+Gotcha!
+
+<0000313F:00003140>
+t
+
+<00003169:00003193>
+Trent quickily ushers me out of the house.
+
+<000031D9:000031E7>
+i_farmentrance
+
+<0000322E:00003235>
+i_trent
+
+<0000323A:0000323D>
+sad
+
+<0000324C:00003256>
+scale(.45)
+
+<00003260:00003280>
+Position(xalign=.49,yalign=-3.5)
+
+<000032C7:000032CF>
+dissolve
+
+<0000330F:00003328>
+voice "voices/ent004.ogg"
+
+<00003360:00003395>
+Sorry, Steve. It's better if you stay out of the way.
+
+<000033B5:000033B6>
+t
+
+<000033FF:00003407>
+dissolve
+
+<0000342B:00003432>
+i_trent
+
+<00003437:0000343A>
+sad
+
+<000034DB:000034E4>
+claradate
+
+<00003526:0000353F>
+Clara is waiting outside.
+
+<000035A1:000035A9>
+dissolve
+
+<000035CA:000035D1>
+i_clara
+
+<000035D6:000035D9>
+sad
+
+<000035E8:000035F2>
+scale(.55)
+
+<000035FC:0000361D>
+Position(xalign=0.55,yalign=-.5) 
+
+<0000369C:000036B5>
+voice "voices/enc002.ogg"
+
+<000036ED:000036F3>
+Hey...
+
+<00003713:00003714>
+c
+
+<00003741:0000375A>
+voice "voices/ens011.ogg"
+
+<00003792:00003798>
+Hey...
+
+<000037B8:000037BA>
+s2
+
+<000037EC:00003805>
+voice "voices/enc003.ogg"
+
+<0000383D:00003862>
+I figured you could use some company.
+
+<00003882:00003883>
+c
+
+<000038BC:000038C9>
+es=emo["sad"]
+
+<00003918:00003931>
+voice "voices/ens012.ogg"
+
+<00003969:00003979>
+Y-yeah...thanks.
+
+<00003999:0000399B>
+s2
+
+<000039C9:00003A0C>
+She sits down on the porch and indicates that I should do the same.
+
+<00003A6E:00003A76>
+dissolve
+
+<00003A97:00003A9E>
+i_clara
+
+<00003AA3:00003AA6>
+sad
+
+<00003AB5:00003ABF>
+scale(.85)
+
+<00003AC9:00003AEB>
+Position(xalign=0.55,yalign=-.02) 
+
+<00003B66:00003B8D>
+I sit next to her and stare at the sky.
+
+<00003BD6:00003BEF>
+voice "voices/enc004.ogg"
+
+<00003C27:00003C32>
+Hey, Steve.
+
+<00003C52:00003C53>
+c
+
+<00003C8C:00003C9C>
+es=emo["normal"]
+
+<00003CEB:00003D04>
+voice "voices/ens013.ogg"
+
+<00003D3C:00003D41>
+Yeah?
+
+<00003D61:00003D63>
+s2
+
+<00003D91:00003DBA>
+She takes my hand and gives it a squeeze.
+
+<00003E03:00003E1C>
+voice "voices/enc005.ogg"
+
+<00003E54:00003E72>
+Everything's going to be fine.
+
+<00003E92:00003E93>
+c
+
+<00003EC0:00003ED9>
+voice "voices/ens014.ogg"
+
+<00003F11:00003F18>
+Thanks.
+
+<00003F38:00003F3A>
+s2
+
+<00003F5E:00003F68>
+mariandate
+
+<00003FAA:00003FC3>
+Marian is waiting nearby.
+
+<0000400C:00004025>
+voice "voices/enm002.ogg"
+
+<0000407D:00004085>
+dissolve
+
+<000040A6:000040AE>
+i_marian
+
+<000040B3:000040BD>
+surprised2
+
+<000040CC:000040D5>
+scale(.7)
+
+<000040DF:000040FF>
+Position(xalign=.5,yalign=-.05) 
+
+<00004180:0000419C>
+Steve! What happened to Sam?
+
+<000041BC:000041BD>
+m
+
+<000041EA:00004203>
+voice "voices/ens015.ogg"
+
+<0000423B:0000426B>
+I don't know...he was that way when I came home.
+
+<0000428B:0000428D>
+s2
+
+<000042BF:000042D8>
+voice "voices/enm003.ogg"
+
+<00004330:00004338>
+dissolve
+
+<00004359:00004361>
+i_marian
+
+<00004366:00004370>
+surprised1
+
+<0000437F:00004388>
+scale(.7)
+
+<00004392:000043B2>
+Position(xalign=.5,yalign=-.05) 
+
+<00004433:0000443E>
+He's not...
+
+<0000445E:0000445F>
+m
+
+<0000448C:000044A5>
+voice "voices/ens016.ogg"
+
+<000044DD:000044F6>
+No, no. He's still alive.
+
+<00004516:00004518>
+s2
+
+<0000454A:00004563>
+voice "voices/enm004.ogg"
+
+<000045BB:000045C3>
+dissolve
+
+<000045E4:000045EC>
+i_marian
+
+<000045F1:000045F5>
+cry2
+
+<00004604:0000460D>
+scale(.7)
+
+<00004617:00004636>
+Position(xalign=.5,yalign=-.1) 
+
+<000046B7:000046C5>
+Oh, thank God!
+
+<000046E5:000046E6>
+m
+
+<0000472F:00004737>
+dissolve
+
+<00004758:00004760>
+i_marian
+
+<00004765:00004769>
+cry1
+
+<00004778:00004781>
+scale(.7)
+
+<0000478B:000047AA>
+Position(xalign=.5,yalign=-.1) 
+
+<0000482B:00004870>
+Marian buries her face in my chest and begins sobbing uncontrollably.
+
+<000048B9:000048D2>
+voice "voices/enm005.ogg"
+
+<0000490A:00004925>
+I don't know what I'd do...
+
+<00004945:00004946>
+m
+
+<0000496F:0000499E>
+I rub her back gently, trying to calm her down.
+
+<000049F3:00004A00>
+es=emo["sad"]
+
+<00004A4F:00004A68>
+voice "voices/ens017.ogg"
+
+<00004AA0:00004AF6>
+Hey...don't think that way. He'll be fine. Uncle's a stubborn guy. He'll pull through.
+
+<00004B16:00004B18>
+s2
+
+<00004B46:00004B7F>
+She nods weakly, but it's clear that she's still worried.
+
+<00004BC4:00004BE2>
+Then again, I'm worried too...
+
+<00004C27:00004C59>
+I give her a hug before sitting down on the porch.
+
+<00004CA2:00004CBB>
+voice "voices/ens018.ogg"
+
+<00004CF3:00004D17>
+Here. Let's just trust Susana, okay?
+
+<00004D37:00004D39>
+s2
+
+<00004D6B:00004D84>
+voice "voices/enm006.ogg"
+
+<00004DDC:00004DE4>
+dissolve
+
+<00004E05:00004E0D>
+i_marian
+
+<00004E12:00004E15>
+sad
+
+<00004E24:00004E2D>
+scale(.7)
+
+<00004E37:00004E56>
+Position(xalign=.5,yalign=-.1) 
+
+<00004ED7:00004EDD>
+Yes...
+
+<00004EFD:00004EFE>
+m
+
+<00004F27:00004F5B>
+Marian sits beside me and I wrap my arms around her.
+
+<00004FB2:00005012>
+He turns and rushes back inside, leaving me in the cold with no one but Orpheus as my companion.
+
+<00005062:000050DF>
+We wait together as the night grows dark. I don't remember much, but when I open my eyes, I find that I'm back in my bedroom.
+
+<00005134:0000516E>
+renpy.music.play("snd/yearning.ogg", loop=True,fadein=0.5)
+
+<000051D6:000051DA>
+fade
+
+<000051FB:00005204>
+i_bedroom
+
+<00005291:000052A2>
+es=emo["awkward"]
+
+<000052F1:0000530A>
+voice "voices/ens019.ogg"
+
+<00005342:00005356>
+Ugh...what happened?
+
+<00005376:00005378>
+s2
+
+<000053A6:000053F6>
+As I grow more aware, the events of last night suddenly become clear in my mind.
+
+<0000544B:0000545E>
+es=emo["surprised"]
+
+<000054AD:000054C6>
+voice "voices/ens020.ogg"
+
+<000054FE:00005504>
+Uncle!
+
+<00005524:00005526>
+s2
+
+<00005576:0000557F>
+claradate
+
+<000055C5:000055DF>
+voice "voices/enja000.ogg"
+
+<00005637:0000563F>
+dissolve
+
+<00005660:00005667>
+i_jacob
+
+<00005676:00005680>
+scale(.65)
+
+<0000568A:000056AC>
+Position(xalign=.5125,yalign=-.2) 
+
+<0000572D:00005737>
+He's fine.
+
+<00005757:00005759>
+ja
+
+<0000578B:000057A4>
+voice "voices/ens021.ogg"
+
+<000057DC:000057FB>
+Jacob! What are you doing here?
+
+<0000581B:0000581D>
+s2
+
+<0000584F:00005869>
+voice "voices/enja001.ogg"
+
+<000058C1:000058C9>
+dissolve
+
+<000058EA:000058F1>
+i_jacob
+
+<000058F6:000058FB>
+smile
+
+<0000590A:00005914>
+scale(.65)
+
+<0000591E:00005940>
+Position(xalign=.5125,yalign=-.2) 
+
+<000059C1:00005A11>
+Susana asked me to come make sure you were okay You must have had a rough night.
+
+<00005A31:00005A33>
+ja
+
+<00005A71:00005A82>
+es=emo["awkward"]
+
+<00005AD1:00005AEA>
+voice "voices/ens022.ogg"
+
+<00005B22:00005B41>
+I could think of better ones...
+
+<00005B61:00005B63>
+s2
+
+<00005B95:00005BAF>
+voice "voices/enja002.ogg"
+
+<00005C07:00005C0F>
+dissolve
+
+<00005C30:00005C37>
+i_jacob
+
+<00005C3C:00005C3F>
+sad
+
+<00005C4E:00005C58>
+scale(.65)
+
+<00005C62:00005C84>
+Position(xalign=.5125,yalign=-.2) 
+
+<00005D05:00005D29>
+Sam had a heart attack last night...
+
+<00005D49:00005D4B>
+ja
+
+<00005D89:00005D9C>
+es=emo["surprised"]
+
+<00005DEB:00005E04>
+voice "voices/ens023.ogg"
+
+<00005E3C:00005E4A>
+How is he now?
+
+<00005E6A:00005E6C>
+s2
+
+<00005E9E:00005EB8>
+voice "voices/enja003.ogg"
+
+<00005EF0:00005F3A>
+Susana took him to the hospital last night. I haven't heard anything else.
+
+<00005F5A:00005F5C>
+ja
+
+<00005F9A:00005FAA>
+es=emo["normal"]
+
+<00005FF9:00006012>
+voice "voices/ens024.ogg"
+
+<0000604A:00006050>
+I see.
+
+<00006070:00006072>
+s2
+
+<000060A4:000060BE>
+voice "voices/enja004.ogg"
+
+<000060F6:0000610E>
+And how are you feeling?
+
+<0000612E:00006130>
+ja
+
+<00006162:0000617B>
+voice "voices/ens025.ogg"
+
+<000061B3:000061F1>
+Like I just got thrown out an airplane with no parachute. You?
+
+<00006211:00006213>
+s2
+
+<00006241:00006254>
+Jacob laughs shyly.
+
+<0000629D:000062B7>
+voice "voices/enja005.ogg"
+
+<0000630F:00006317>
+dissolve
+
+<00006338:0000633F>
+i_jacob
+
+<00006344:00006345>
+2
+
+<00006354:0000635E>
+scale(.65)
+
+<00006368:00006387>
+Position(xalign=.5,yalign=-.2) 
+
+<00006408:0000641B>
+I guess I'm okay...
+
+<0000643B:0000643D>
+ja
+
+<0000647B:0000648B>
+es=emo["normal"]
+
+<000064DA:000064F3>
+voice "voices/ens026.ogg"
+
+<0000652B:00006567>
+Hey man, I really appreciate you coming over here like this.
+
+<00006587:00006589>
+s2
+
+<000065BB:000065D5>
+voice "voices/enja006.ogg"
+
+<0000660D:0000662B>
+Thank Susana. It was her idea.
+
+<0000664B:0000664D>
+ja
+
+<0000667F:00006698>
+voice "voices/ens027.ogg"
+
+<000066D0:000066E8>
+I'll be sure to do that.
+
+<00006708:0000670A>
+s2
+
+<0000673C:00006756>
+voice "voices/enja007.ogg"
+
+<000067AE:000067B6>
+dissolve
+
+<000067D7:000067DE>
+i_jacob
+
+<000067E3:000067E7>
+sad2
+
+<000067F6:00006800>
+scale(.65)
+
+<0000680A:00006829>
+Position(xalign=.5,yalign=-.2) 
+
+<000068AA:000068E0>
+Well, since you're doing okay, I should probably go...
+
+<00006900:00006902>
+ja
+
+<00006940:00006953>
+es=emo["surprised"]
+
+<000069A2:000069BB>
+voice "voices/ens028.ogg"
+
+<000069F3:00006A1F>
+You don't have to leave so soon. Let's chat.
+
+<00006A3F:00006A41>
+s2
+
+<00006A73:00006A8D>
+voice "voices/enja008.ogg"
+
+<00006AE5:00006AED>
+dissolve
+
+<00006B0E:00006B15>
+i_jacob
+
+<00006B1A:00006B24>
+surprised2
+
+<00006B33:00006B3D>
+scale(.65)
+
+<00006B47:00006B66>
+Position(xalign=.5,yalign=-.2) 
+
+<00006BE7:00006BF4>
+Are you sure?
+
+<00006C14:00006C16>
+ja
+
+<00006C48:00006C61>
+voice "voices/ens029.ogg"
+
+<00006C99:00006CE7>
+Hey, you're my guest now. Besides, it'll be nice to have someone to talk with.
+
+<00006D07:00006D09>
+s2
+
+<00006D57:00006D5F>
+dissolve
+
+<00006D80:00006D89>
+i_kitchen
+
+<00006D97:00006DA2>
+scale (.5) 
+
+<00006E24:00006E72>
+Jacob and I walk down to the kitchen where we are greeted by a hungry Orpheus.
+
+<00006EC7:00006ED6>
+es=emo["happy"]
+
+<00006F25:00006F3E>
+voice "voices/ens030.ogg"
+
+<00006F76:00006F9A>
+Hey, girl. Uncle's going to be okay.
+
+<00006FBA:00006FBC>
+s2
+
+<00006FEA:00007032>
+I don't know if she understands me or not, but she perks up at my words.
+
+<00007077:000070A3>
+I dish out her food and she digs in happily.
+
+<000070EC:00007105>
+voice "voices/ens031.ogg"
+
+<0000713D:0000716D>
+I guess if she's doing okay, Uncle must be fine.
+
+<0000718D:0000718F>
+s2
+
+<000071C1:000071DB>
+voice "voices/enja009.ogg"
+
+<00007233:0000723B>
+dissolve
+
+<0000725C:00007263>
+i_jacob
+
+<00007268:0000726B>
+sad
+
+<0000727A:00007283>
+scale(.5)
+
+<0000728D:000072AF>
+Position(xalign=.508,yalign=-1.4) 
+
+<00007330:00007339>
+Y-yeah...
+
+<00007359:0000735B>
+ja
+
+<00007399:000073A9>
+es=emo["normal"]
+
+<000073F8:00007411>
+voice "voices/ens032.ogg"
+
+<00007449:00007479>
+So, are you hungry? Do you want anything to eat?
+
+<00007499:0000749B>
+s2
+
+<000074CD:000074E7>
+voice "voices/enja010.ogg"
+
+<0000753F:00007547>
+dissolve
+
+<00007568:0000756F>
+i_jacob
+
+<0000757E:00007587>
+scale(.5)
+
+<00007591:000075B3>
+Position(xalign=.508,yalign=-1.4) 
+
+<00007634:0000763D>
+I'm fine.
+
+<0000765D:0000765F>
+ja
+
+<00007691:000076AA>
+voice "voices/ens033.ogg"
+
+<000076E2:00007739>
+Don't be shy! Hey, I still have some of this great potato and leek soup from yesterday!
+
+<00007759:0000775B>
+s2
+
+<0000778D:000077A7>
+voice "voices/enja011.ogg"
+
+<000077FF:00007807>
+dissolve
+
+<00007828:0000782F>
+i_jacob
+
+<00007834:0000783D>
+surprised
+
+<0000784C:00007855>
+scale(.5)
+
+<0000785F:00007881>
+Position(xalign=.508,yalign=-1.4) 
+
+<00007902:00007912>
+Potato and leek?
+
+<00007932:00007934>
+ja
+
+<00007966:0000797F>
+voice "voices/ens034.ogg"
+
+<000079B7:000079C7>
+Susana's recipe.
+
+<000079E7:000079E9>
+s2
+
+<00007A1D:00007A37>
+voice "voices/enja012.ogg"
+
+<00007A90:00007A98>
+dissolve
+
+<00007AB9:00007AC0>
+i_jacob
+
+<00007AC5:00007ACF>
+surprised2
+
+<00007ADE:00007AE7>
+scale(.5)
+
+<00007AF1:00007B11>
+Position(xalign=.5,yalign=-1.4) 
+
+<00007B94:00007BBF>
+Well, in that case...I guess I'll try some.
+
+<00007BDF:00007BE1>
+ja
+
+<00007C21:00007C30>
+es=emo["happy"]
+
+<00007C81:00007C9A>
+voice "voices/ens035.ogg"
+
+<00007CD2:00007CFD>
+Thought so. Her cooking is great, isn't it?
+
+<00007D1D:00007D1F>
+s2
+
+<00007D4E:00007D80>
+I turn on the stove and begin to heat up the soup.
+
+<00007DCB:00007DE5>
+voice "voices/enja013.ogg"
+
+<00007E3E:00007E46>
+dissolve
+
+<00007E67:00007E6E>
+i_jacob
+
+<00007E73:00007E79>
+smile2
+
+<00007E88:00007E91>
+scale(.5)
+
+<00007E9B:00007EBB>
+Position(xalign=.5,yalign=-1.4) 
+
+<00007F3E:00007F51>
+Among other things.
+
+<00007F71:00007F73>
+ja
+
+<00007FB3:00007FC6>
+es=emo["surprised"]
+
+<00008017:00008030>
+voice "voices/ens036.ogg"
+
+<00008068:0000806C>
+Huh?
+
+<0000808C:0000808E>
+s2
+
+<000080C2:000080DC>
+voice "voices/enja014.ogg"
+
+<00008135:0000813D>
+dissolve
+
+<0000815E:00008165>
+i_jacob
+
+<0000816A:00008174>
+surprised2
+
+<00008183:0000818C>
+scale(.5)
+
+<00008196:000081B6>
+Position(xalign=.5,yalign=-1.4) 
+
+<00008239:00008245>
+N-nothing...
+
+<00008265:00008267>
+ja
+
+<00008296:000082D2>
+Against my better judgement, I decide to change the subject.
+
+<00008329:00008339>
+es=emo["normal"]
+
+<0000838A:000083A3>
+voice "voices/ens037.ogg"
+
+<000083DB:000083EF>
+Hey...about Clara...
+
+<0000840F:00008411>
+s2
+
+<00008461:00008469>
+dissolve
+
+<0000848A:00008491>
+i_jacob
+
+<00008496:00008499>
+sad
+
+<000084A8:000084B1>
+scale(.5)
+
+<000084BB:000084DD>
+Position(xalign=.508,yalign=-1.4) 
+
+<00008560:00008587>
+Jacob smiles sadly and shakes his head.
+
+<000085D2:000085EC>
+voice "voices/enja015.ogg"
+
+<00008624:0000866B>
+It's fine. As soon as I heard her talk about you, I knew she liked you.
+
+<0000868B:0000868D>
+ja
+
+<000086C1:000086DB>
+voice "voices/enja016.ogg"
+
+<00008713:0000875C>
+Truthfully, I knew that I never had a chance with her in the first place.
+
+<0000877C:0000877E>
+ja
+
+<000087AD:000087DE>
+He opens a cupboard and pulls out a couple bowls.
+
+<00008829:00008843>
+voice "voices/enja017.ogg"
+
+<0000889C:000088A4>
+dissolve
+
+<000088C5:000088CC>
+i_jacob
+
+<000088DB:000088E4>
+scale(.5)
+
+<000088EE:00008910>
+Position(xalign=.508,yalign=-1.4) 
+
+<00008993:000089D8>
+I always admired Clara because of how confident and energetic she is.
+
+<000089F8:000089FA>
+ja
+
+<00008A2E:00008A47>
+voice "voices/ens038.ogg"
+
+<00008A7F:00008A94>
+That's Clara alright.
+
+<00008AB4:00008AB6>
+s2
+
+<00008AEA:00008B04>
+voice "voices/enja018.ogg"
+
+<00008B5D:00008B65>
+dissolve
+
+<00008B86:00008B8D>
+i_jacob
+
+<00008B92:00008B95>
+sad
+
+<00008BA4:00008BAD>
+scale(.5)
+
+<00008BB7:00008BD9>
+Position(xalign=.508,yalign=-1.4) 
+
+<00008C5C:00008C89>
+But admiration is only admiration in the end.
+
+<00008CA9:00008CAB>
+ja
+
+<00008CDF:00008CF9>
+voice "voices/enja019.ogg"
+
+<00008D31:00008D7E>
+I realize now that while I really do love her, it's not the way you love her.
+
+<00008D9E:00008DA0>
+ja
+
+<00008DCF:00008E0C>
+He looks at me with a smile as I dish out soup into his bowl.
+
+<00008E57:00008E71>
+voice "voices/enja020.ogg"
+
+<00008ECA:00008ED2>
+dissolve
+
+<00008EF3:00008EFA>
+i_jacob
+
+<00008EFF:00008F05>
+smile2
+
+<00008F14:00008F1D>
+scale(.5)
+
+<00008F27:00008F47>
+Position(xalign=.5,yalign=-1.4) 
+
+<00008FCA:0000900D>
+And you make her look so alive! I'm glad that you came here, Steve.
+
+<0000902D:0000902F>
+ja
+
+<0000906F:0000907E>
+es=emo["happy"]
+
+<000090D2:000090EB>
+voice "voices/ens039.ogg"
+
+<00009123:0000912B>
+So am I.
+
+<0000914B:0000914D>
+s2
+
+<0000917C:000091A4>
+Jacob and I make quick work of the soup.
+
+<000091EA:00009229>
+As he finishes off the last few drops, he stands and stretches.
+
+<00009274:0000928E>
+voice "voices/enja021.ogg"
+
+<000092E7:000092EF>
+dissolve
+
+<00009310:00009317>
+i_jacob
+
+<00009326:0000932F>
+scale(.5)
+
+<00009339:0000935B>
+Position(xalign=.508,yalign=-1.4) 
+
+<000093DE:000093F9>
+Thanks for the soup, Steve.
+
+<00009419:0000941B>
+ja
+
+<0000944F:00009469>
+voice "voices/enja022.ogg"
+
+<000094A1:000094DB>
+I wish I could stay longer, but I need to go back to work.
+
+<000094FB:000094FD>
+ja
+
+<00009531:0000954A>
+voice "voices/ens040.ogg"
+
+<00009593:000095A3>
+es=emo["normal"]
+
+<000095F2:0000961C>
+That's fine. I'm glad you could come over.
+
+<0000963C:0000963E>
+s2
+
+<0000968E:00009696>
+dissolve
+
+<000096BA:000096C1>
+i_jacob
+
+<00009742:00009768>
+After Jacob leaves, I turn to Orpheus.
+
+<000097B3:000097CC>
+voice "voices/ens041.ogg"
+
+<00009804:0000982B>
+Well, I should probably call Pops, huh?
+
+<0000984E:00009850>
+s2
+
+<00009875:0000987F>
+mariandate
+
+<000098C8:000098E1>
+voice "voices/enm007.ogg"
+
+<0000993A:00009942>
+dissolve
+
+<00009963:0000996B>
+i_marian
+
+<00009970:00009977>
+normal1
+
+<00009986:00009990>
+scale(.45)
+
+<0000999A:000099BA>
+Position(xalign=.5,yalign=-4.7) 
+
+<00009A3D:00009A47>
+He's fine.
+
+<00009A67:00009A68>
+m
+
+<00009A97:00009AB0>
+voice "voices/ens042.ogg"
+
+<00009AE8:00009B0D>
+Marian! How long have you been there?
+
+<00009B2D:00009B2F>
+s2
+
+<00009B63:00009B7C>
+voice "voices/enm008.ogg"
+
+<00009BD5:00009BDD>
+dissolve
+
+<00009BFE:00009C06>
+i_marian
+
+<00009C0B:00009C12>
+normal2
+
+<00009C21:00009C2B>
+scale(.45)
+
+<00009C35:00009C55>
+Position(xalign=.5,yalign=-4.7) 
+
+<00009CD8:00009CF0>
+Good morning to you too.
+
+<00009D10:00009D11>
+m
+
+<00009D3B:00009D4E>
+She laughs quietly.
+
+<00009D99:00009DB2>
+voice "voices/enm009.ogg"
+
+<00009E0B:00009E13>
+dissolve
+
+<00009E34:00009E3C>
+i_marian
+
+<00009E41:00009E47>
+happy2
+
+<00009E56:00009E60>
+scale(.45)
+
+<00009E6A:00009E8A>
+Position(xalign=.5,yalign=-4.7) 
+
+<00009F0D:00009F63>
+You fell asleep last night. I hope you don't mind...I stayed here to take care of you.
+
+<00009F83:00009F84>
+m
+
+<00009FBF:00009FD0>
+es=emo["awkward"]
+
+<0000A021:0000A03A>
+voice "voices/ens043.ogg"
+
+<0000A072:0000A085>
+Y-yeah...it's fine.
+
+<0000A0A5:0000A0A7>
+s2
+
+<0000A0DB:0000A0F4>
+voice "voices/enm010.ogg"
+
+<0000A14D:0000A155>
+dissolve
+
+<0000A176:0000A17E>
+i_marian
+
+<0000A183:0000A189>
+happy1
+
+<0000A198:0000A1A2>
+scale(.45)
+
+<0000A1AC:0000A1CC>
+Position(xalign=.5,yalign=-4.7) 
+
+<0000A24F:0000A263>
+How are you feeling?
+
+<0000A283:0000A284>
+m
+
+<0000A2BF:0000A2CF>
+es=emo["normal"]
+
+<0000A320:0000A339>
+voice "voices/ens044.ogg"
+
+<0000A371:0000A3AA>
+Okay, I guess. Last night was pretty stressful, though...
+
+<0000A3CD:0000A3CF>
+s2
+
+<0000A403:0000A41C>
+voice "voices/enm011.ogg"
+
+<0000A454:0000A4C1>
+Susana and Trent took Sam to the hospital last night. It was a heart attack. I haven't heard from them since.
+
+<0000A4E1:0000A4E2>
+m
+
+<0000A511:0000A52A>
+voice "voices/ens045.ogg"
+
+<0000A562:0000A573>
+I see. Thank you.
+
+<0000A593:0000A595>
+s2
+
+<0000A5C4:0000A5F3>
+I lean back in my bed and stare at the ceiling.
+
+<0000A63E:0000A657>
+voice "voices/ens046.ogg"
+
+<0000A68F:0000A6AC>
+What about you? Are you okay?
+
+<0000A6CC:0000A6CE>
+s2
+
+<0000A702:0000A71B>
+voice "voices/enm012.ogg"
+
+<0000A774:0000A77C>
+dissolve
+
+<0000A79D:0000A7A5>
+i_marian
+
+<0000A7AA:0000A7B1>
+normal1
+
+<0000A7C0:0000A7CA>
+scale(.45)
+
+<0000A7D4:0000A7F4>
+Position(xalign=.5,yalign=-4.7) 
+
+<0000A877:0000A8CF>
+I'm holding up. It's a little frightening, you know. This is the second time, after all.
+
+<0000A8EF:0000A8F0>
+m
+
+<0000A91F:0000A938>
+voice "voices/enm013.ogg"
+
+<0000A970:0000A986>
+But I feel better now.
+
+<0000A9A6:0000A9A7>
+m
+
+<0000A9D6:0000A9EF>
+voice "voices/ens047.ogg"
+
+<0000AA27:0000AA42>
+Have you been up all night?
+
+<0000AA62:0000AA64>
+s2
+
+<0000AA98:0000AAB1>
+voice "voices/enm014.ogg"
+
+<0000AB0A:0000AB12>
+dissolve
+
+<0000AB33:0000AB3B>
+i_marian
+
+<0000AB40:0000AB47>
+normal2
+
+<0000AB56:0000AB60>
+scale(.45)
+
+<0000AB6A:0000AB8A>
+Position(xalign=.5,yalign=-4.7) 
+
+<0000AC0D:0000AC18>
+Most of it.
+
+<0000AC38:0000AC39>
+m
+
+<0000AC68:0000AC81>
+voice "voices/ens048.ogg"
+
+<0000ACB9:0000ACD7>
+You should get some rest, too.
+
+<0000ACF7:0000ACF9>
+s2
+
+<0000AD28:0000AD64>
+I get out of bed and stretch my arms. Ugh...I feel so stiff.
+
+<0000ADAF:0000ADC8>
+voice "voices/ens049.ogg"
+
+<0000AE00:0000AE1C>
+Here, you can borrow my bed.
+
+<0000AE3C:0000AE3E>
+s2
+
+<0000AE72:0000AE8B>
+voice "voices/enm015.ogg"
+
+<0000AEE4:0000AEEC>
+dissolve
+
+<0000AF0D:0000AF15>
+i_marian
+
+<0000AF1A:0000AF24>
+surprised1
+
+<0000AF33:0000AF3D>
+scale(.45)
+
+<0000AF47:0000AF67>
+Position(xalign=.5,yalign=-4.7) 
+
+<0000AFEA:0000AFF7>
+Are you sure?
+
+<0000B017:0000B018>
+m
+
+<0000B063:0000B06B>
+dissolve
+
+<0000B08C:0000B094>
+i_marian
+
+<0000B099:0000B0A0>
+normal1
+
+<0000B0AF:0000B0B9>
+scale(.45)
+
+<0000B0C3:0000B0E3>
+Position(xalign=.5,yalign=-4.7) 
+
+<0000B177:0000B186>
+es=emo["happy"]
+
+<0000B1D7:0000B1F0>
+voice "voices/ens050.ogg"
+
+<0000B228:0000B261>
+It's fine. I have to go call my father right now, anyway.
+
+<0000B281:0000B283>
+s2
+
+<0000B2B7:0000B2D0>
+voice "voices/enm016.ogg"
+
+<0000B308:0000B325>
+Well...if it's fine with you.
+
+<0000B345:0000B346>
+m
+
+<0000B375:0000B38E>
+voice "voices/ens051.ogg"
+
+<0000B3C6:0000B3D0>
+It's fine.
+
+<0000B3F0:0000B3F2>
+s2
+
+<0000B421:0000B463>
+Marian nods, and I leave her alone so she can have a bit of peace.
+
+<0000B49F:0000B4A9>
+susanadate
+
+<0000B4F2:0000B50B>
+voice "voices/ent005.ogg"
+
+<0000B564:0000B56C>
+dissolve
+
+<0000B58D:0000B594>
+i_trent
+
+<0000B5A3:0000B5AC>
+scale(.5)
+
+<0000B5B6:0000B5D6>
+Position(xalign=.49,yalign=-.5) 
+
+<0000B659:0000B663>
+He's fine.
+
+<0000B683:0000B684>
+t
+
+<0000B6BF:0000B6D2>
+es=emo["surprised"]
+
+<0000B723:0000B73C>
+voice "voices/ens052.ogg"
+
+<0000B774:0000B77A>
+Trent!
+
+<0000B79A:0000B79C>
+s2
+
+<0000B7DC:0000B7ED>
+es=emo["awkward"]
+
+<0000B83E:0000B857>
+voice "voices/ens053.ogg"
+
+<0000B88F:0000B8B2>
+Um...why are you watching me sleep?
+
+<0000B8D2:0000B8D4>
+s2
+
+<0000B908:0000B921>
+voice "voices/ent006.ogg"
+
+<0000B959:0000B98A>
+Susie insisted I stay behind to take care of you.
+
+<0000B9AA:0000B9AB>
+t
+
+<0000B9E6:0000B9F6>
+es=emo["normal"]
+
+<0000BA47:0000BA60>
+voice "voices/ens054.ogg"
+
+<0000BA98:0000BAAD>
+That was kind of her.
+
+<0000BACD:0000BACF>
+s2
+
+<0000BB03:0000BB1C>
+voice "voices/ent007.ogg"
+
+<0000BB75:0000BB7D>
+dissolve
+
+<0000BB9E:0000BBA5>
+i_trent
+
+<0000BBAA:0000BBAF>
+angry
+
+<0000BBBE:0000BBC7>
+scale(.5)
+
+<0000BBD1:0000BBF1>
+Position(xalign=.49,yalign=-.5) 
+
+<0000BC74:0000BC9A>
+Yes. It was. You'd better be grateful.
+
+<0000BCBA:0000BCBB>
+t
+
+<0000BCF6:0000BD09>
+es=emo["surprised"]
+
+<0000BD5A:0000BD73>
+voice "voices/ens055.ogg"
+
+<0000BDAB:0000BDD6>
+I am. Neither of you had to do this for me.
+
+<0000BDF6:0000BDF8>
+s2
+
+<0000BE2C:0000BE45>
+voice "voices/ent008.ogg"
+
+<0000BE7D:0000BEA9>
+I didn't do it for you, kid. It was for Sam.
+
+<0000BEC9:0000BECA>
+t
+
+<0000BF05:0000BF15>
+es=emo["normal"]
+
+<0000BF66:0000BF7F>
+voice "voices/ens056.ogg"
+
+<0000BFB7:0000BFF3>
+Well, I'm still grateful. Uncle means a lot to me, you know.
+
+<0000C013:0000C015>
+s2
+
+<0000C065:0000C06D>
+dissolve
+
+<0000C08E:0000C095>
+i_trent
+
+<0000C09A:0000C0A1>
+worried
+
+<0000C0B0:0000C0B9>
+scale(.5)
+
+<0000C0C3:0000C0E3>
+Position(xalign=.49,yalign=-.5) 
+
+<0000C166:0000C18D>
+The expression on Trent's face softens.
+
+<0000C1D8:0000C1F1>
+voice "voices/ent009.ogg"
+
+<0000C229:0000C237>
+Yeah...I know.
+
+<0000C257:0000C258>
+t
+
+<0000C282:0000C2B5>
+He stares at the ground for awhile before speaking.
+
+<0000C300:0000C319>
+voice "voices/ent010.ogg"
+
+<0000C372:0000C37A>
+dissolve
+
+<0000C39B:0000C3A2>
+i_trent
+
+<0000C3A7:0000C3AA>
+sad
+
+<0000C3B9:0000C3C2>
+scale(.5)
+
+<0000C3CC:0000C3EC>
+Position(xalign=.49,yalign=-.5) 
+
+<0000C46F:0000C48F>
+You treat my sister right, okay?
+
+<0000C4AF:0000C4B0>
+t
+
+<0000C4DF:0000C4F8>
+voice "voices/ens057.ogg"
+
+<0000C530:0000C553>
+Of course. She's like a princess...
+
+<0000C573:0000C575>
+s2
+
+<0000C5A9:0000C5C2>
+voice "voices/ent011.ogg"
+
+<0000C61B:0000C623>
+dissolve
+
+<0000C644:0000C64B>
+i_trent
+
+<0000C650:0000C655>
+angry
+
+<0000C664:0000C66D>
+scale(.5)
+
+<0000C677:0000C697>
+Position(xalign=.49,yalign=-.5) 
+
+<0000C71A:0000C743>
+She IS a princess. So treat her like one.
+
+<0000C763:0000C764>
+t
+
+<0000C78E:0000C7CA>
+Trent looks me in the eye, measuring my responses carefully.
+
+<0000C815:0000C82E>
+voice "voices/ens058.ogg"
+
+<0000C866:0000C871>
+I love her.
+
+<0000C891:0000C893>
+s2
+
+<0000C8E3:0000C8EB>
+dissolve
+
+<0000C90C:0000C913>
+i_trent
+
+<0000C918:0000C921>
+surprised
+
+<0000C930:0000C939>
+scale(.5)
+
+<0000C943:0000C963>
+Position(xalign=.49,yalign=-.5) 
+
+<0000C9E6:0000C9E9>
+...
+
+<0000CA0C:0000CA0D>
+t
+
+<0000CA58:0000CA60>
+dissolve
+
+<0000CA81:0000CA88>
+i_trent
+
+<0000CA8D:0000CA92>
+happy
+
+<0000CAA1:0000CAAA>
+scale(.5)
+
+<0000CAB4:0000CAD4>
+Position(xalign=.49,yalign=-.5) 
+
+<0000CB57:0000CB83>
+His expression suddenly breaks into a smile.
+
+<0000CBCE:0000CBE7>
+voice "voices/ent012.ogg"
+
+<0000CC1F:0000CC45>
+Then take good care of her, my friend.
+
+<0000CC65:0000CC66>
+t
+
+<0000CC90:0000CCA9>
+He's visibly relaxed now.
+
+<0000CCF2:0000CD20>
+He rolls his head back and stretches his arms.
+
+<0000CD6B:0000CD84>
+voice "voices/ent013.ogg"
+
+<0000CDDD:0000CDE5>
+dissolve
+
+<0000CE06:0000CE0D>
+i_trent
+
+<0000CE1C:0000CE25>
+scale(.5)
+
+<0000CE2F:0000CE4F>
+Position(xalign=.49,yalign=-.5) 
+
+<0000CED2:0000CEED>
+Aaaaahh..that's the ticket.
+
+<0000CF0D:0000CF0E>
+t
+
+<0000CF3D:0000CF56>
+voice "voices/ent014.ogg"
+
+<0000CF8E:0000CFCA>
+Well, since I know you're doing okay, I'll be on my way now.
+
+<0000CFEA:0000CFEB>
+t
+
+<0000D015:0000D04A>
+He heads to the door, but stops and turns to face me.
+
+<0000D095:0000D0AE>
+voice "voices/ent015.ogg"
+
+<0000D107:0000D10F>
+dissolve
+
+<0000D130:0000D137>
+i_trent
+
+<0000D13C:0000D143>
+worried
+
+<0000D152:0000D15B>
+scale(.5)
+
+<0000D165:0000D185>
+Position(xalign=.49,yalign=-.5) 
+
+<0000D208:0000D27A>
+Oh yeah, and your Uncle's in the hospital right now. We took him there last night. That was a heart attack he had.
+
+<0000D29A:0000D29B>
+t
+
+<0000D2CA:0000D2E3>
+voice "voices/ens059.ogg"
+
+<0000D31B:0000D32A>
+I see...thanks.
+
+<0000D34D:0000D34F>
+s2
+
+<0000D383:0000D39C>
+voice "voices/ent016.ogg"
+
+<0000D3F5:0000D3FD>
+dissolve
+
+<0000D41E:0000D425>
+i_trent
+
+<0000D434:0000D43D>
+scale(.5)
+
+<0000D447:0000D467>
+Position(xalign=.49,yalign=-.5) 
+
+<0000D4EA:0000D504>
+I'll be seeing you around.
+
+<0000D524:0000D525>
+t
+
+<0000D554:0000D56D>
+voice "voices/ens060.ogg"
+
+<0000D5A5:0000D5B4>
+Yeah. See ya...
+
+<0000D5D5:0000D5D7>
+s2
+
+<0000D606:0000D65F>
+I stare at the ceiling for a few minutes before I muster up the energy to get out of bed.
+
+<0000D6A6:0000D6C5>
+I suppose I should call Pops...
+
+<0000D721:0000D757>
+My cry echoes through the empty house. I'm alone, huh?
+
+<0000D79E:0000D7D0>
+I roll out of bed and make my way down the stairs.
+
+<0000D836:0000D83E>
+dissolve
+
+<0000D85F:0000D868>
+i_kitchen
+
+<0000D876:0000D880>
+scale(.5) 
+
+<0000D903:0000D928>
+Orpheus greets me with a hungry yowl.
+
+<0000D980:0000D990>
+es=emo["normal"]
+
+<0000D9E2:0000D9FB>
+voice "voices/ens061.ogg"
+
+<0000DA33:0000DA3D>
+Hey, girl.
+
+<0000DA5E:0000DA60>
+s2
+
+<0000DA8F:0000DABF>
+I pour out her food and she digs in voraciously.
+
+<0000DB06:0000DB45>
+On the kitchen table rests a note in Susana's neat handwriting.
+
+<0000DB8C:0000DBE6>
+"Steve, Sam had a heart attack. We're taking him to the hospital. Hang in there. -Susana."
+
+<0000DC2D:0000DC69>
+Orpheus wanders over to me and winds her way around my legs.
+
+<0000DCB0:0000DCD4>
+I lean down and pat her on the head.
+
+<0000DD20:0000DD39>
+voice "voices/ens062.ogg"
+
+<0000DD71:0000DD95>
+I'm going to have to call Pops, huh?
+
+<0000DDB6:0000DDB8>
+s2
+
+<0000DDE7:0000DE19>
+She gazes up at me and tilts her head to the side.
+
+<0000DE65:0000DE7E>
+voice "voices/ens063.ogg"
+
+<0000DEB6:0000DECE>
+I'll take that as a yes.
+
+<0000DEEF:0000DEF1>
+s2
+
+<0000DF3C:0000DF57>
+renpy.music.stop(fadeout=1)
+
+<0000DFAF:0000DFB9>
+callfather
+
+<0000DFDE:0000DFE7>
+aftercall
+
+<0000E047:0000E04F>
+dissolve
+
+<0000E070:0000E079>
+i_kitchen
+
+<0000E087:0000E091>
+scale(.5) 
+
+<0000E114:0000E16C>
+I stare at the phone for at least three minutes before I dare to even lift the receiver.
+
+<0000E1B3:0000E1D4>
+Calling Jill is one thing, but...
+
+<0000E21B:0000E245>
+With a heavy sigh I begin dialing my home.
+
+<0000E28C:0000E2A3>
+The phone rings once...
+
+<0000E2FB:0000E30B>
+es=emo["normal"]
+
+<0000E35D:0000E376>
+voice "voices/ens064.ogg"
+
+<0000E3AE:0000E3C5>
+Please don't be home...
+
+<0000E3E6:0000E3E8>
+s2
+
+<0000E417:0000E41F>
+Twice...
+
+<0000E46B:0000E484>
+voice "voices/ens065.ogg"
+
+<0000E4BC:0000E4D5>
+Let me leave a message...
+
+<0000E4F6:0000E4F8>
+s2
+
+<0000E527:0000E535>
+Three times...
+
+<0000E581:0000E59A>
+voice "voices/ens066.ogg"
+
+<0000E5D2:0000E5E3>
+No one's there...
+
+<0000E606:0000E608>
+s2
+
+<0000E637:0000E644>
+Four times...
+
+<0000E692:0000E6AB>
+voice "voices/ens067.ogg"
+
+<0000E6E3:0000E6E8>
+Just-
+
+<0000E709:0000E70B>
+s2
+
+<0000E73B:0000E746>
+i_homeframe
+
+<0000E754:0000E758>
+left
+
+<0000E79E:0000E7A6>
+i_father
+
+<0000E7B5:0000E7BF>
+scale(.75)
+
+<0000E7C9:0000E7EB>
+Position(xalign=-.2,yalign=-0.05) 
+
+<0000E831:0000E839>
+dissolve
+
+<0000E87C:0000E895>
+voice "voices/enf000.ogg"
+
+<0000E8CD:0000E8D3>
+Hello?
+
+<0000E8F4:0000E8F5>
+f
+
+<0000E930:0000E96D>
+renpy.music.play("snd/darkwaiting.ogg", loop=True,fadein=0.5)
+
+<0000E9CA:0000E9DB>
+es=emo["awkward"]
+
+<0000EA2D:0000EA46>
+voice "voices/ens068.ogg"
+
+<0000EA7E:0000EA8B>
+...guess not.
+
+<0000EAAC:0000EAAE>
+s2
+
+<0000EAE2:0000EAFB>
+voice "voices/enf001.ogg"
+
+<0000EB33:0000EB3F>
+Who is this?
+
+<0000EB60:0000EB61>
+f
+
+<0000EB90:0000EBA9>
+voice "voices/ens069.ogg"
+
+<0000EBE1:0000EBF1>
+Hi...it's Steve.
+
+<0000EC12:0000EC14>
+s2
+
+<0000EC48:0000EC61>
+voice "voices/enf002.ogg"
+
+<0000EC99:0000ECDA>
+Steven? Summer's almost over. Can't this wait until you get back?
+
+<0000ECFB:0000ECFC>
+f
+
+<0000ED37:0000ED46>
+es=emo["angry"]
+
+<0000ED98:0000EDB1>
+voice "voices/ens070.ogg"
+
+<0000EDE9:0000EE35>
+Typical. After all these months, you're not even happy to hear your own son!
+
+<0000EE56:0000EE58>
+s2
+
+<0000EEA6:0000EEAE>
+dissolve
+
+<0000EECF:0000EED7>
+i_father
+
+<0000EEDC:0000EEE1>
+angry
+
+<0000EEF0:0000EEFA>
+scale(.75)
+
+<0000EF04:0000EF26>
+Position(xalign=-.2,yalign=-0.05) 
+
+<0000EFAA:0000EFC3>
+voice "voices/enf003.ogg"
+
+<0000EFFB:0000F03F>
+Maybe I'm not happy because my son is just as disrespectful as ever!
+
+<0000F060:0000F061>
+f
+
+<0000F090:0000F0A9>
+voice "voices/ens071.ogg"
+
+<0000F0E1:0000F11F>
+Would you just LISTEN to me! Uncle's had another heart attack!
+
+<0000F140:0000F142>
+s2
+
+<0000F190:0000F198>
+dissolve
+
+<0000F1B9:0000F1C1>
+i_father
+
+<0000F1C6:0000F1CF>
+surprised
+
+<0000F1DE:0000F1E8>
+scale(.75)
+
+<0000F1F2:0000F214>
+Position(xalign=-.2,yalign=-0.05) 
+
+<0000F298:0000F2B1>
+voice "voices/enf004.ogg"
+
+<0000F2E9:0000F2EE>
+What?
+
+<0000F30F:0000F310>
+f
+
+<0000F34B:0000F35B>
+es=emo["normal"]
+
+<0000F3AD:0000F3C6>
+voice "voices/ens072.ogg"
+
+<0000F3FE:0000F425>
+He had a heart attack last night, okay?
+
+<0000F446:0000F448>
+s2
+
+<0000F496:0000F49E>
+dissolve
+
+<0000F4BF:0000F4C7>
+i_father
+
+<0000F4CC:0000F4CF>
+cry
+
+<0000F4DE:0000F4E8>
+scale(.75)
+
+<0000F4F2:0000F514>
+Position(xalign=-.2,yalign=-0.05) 
+
+<0000F598:0000F5B1>
+voice "voices/enf005.ogg"
+
+<0000F5E9:0000F602>
+Oh God...Sam...not again.
+
+<0000F623:0000F624>
+f
+
+<0000F66D:0000F675>
+dissolve
+
+<0000F696:0000F69E>
+i_father
+
+<0000F6A3:0000F6A6>
+sad
+
+<0000F6B5:0000F6BF>
+scale(.75)
+
+<0000F6C9:0000F6EB>
+Position(xalign=-.2,yalign=-0.05) 
+
+<0000F76F:0000F788>
+voice "voices/enf006.ogg"
+
+<0000F7C0:0000F7CB>
+Is he okay?
+
+<0000F7EC:0000F7ED>
+f
+
+<0000F81C:0000F835>
+voice "voices/ens073.ogg"
+
+<0000F86D:0000F886>
+He's in the hospital now.
+
+<0000F8A9:0000F8AB>
+s2
+
+<0000F8DF:0000F8F8>
+voice "voices/enf007.ogg"
+
+<0000F930:0000F944>
+Good. I'm on my way.
+
+<0000F965:0000F966>
+f
+
+<0000F9A1:0000F9B4>
+es=emo["surprised"]
+
+<0000FA06:0000FA1F>
+voice "voices/ens074.ogg"
+
+<0000FA57:0000FA5B>
+Huh?
+
+<0000FA7C:0000FA7E>
+s2
+
+<0000FAB2:0000FACB>
+voice "voices/enf008.ogg"
+
+<0000FB03:0000FB36>
+I said I'm on my way. I'll be there in a few hours.
+
+<0000FB57:0000FB58>
+f
+
+<0000FB82:0000FBAF>
+Pops hangs up before I can say anything else.
+
+<0000FC15:0000FC1D>
+dissolve
+
+<0000FC3E:0000FC47>
+i_kitchen
+
+<0000FC55:0000FC5F>
+scale(.5) 
+
+<0000FD33:0000FD4E>
+renpy.music.stop(fadeout=1)
+
+<0000FD9A:0000FDD3>
+I look down at Orpheus. She looks back at me expectantly.
+
+<0000FE1F:0000FE38>
+voice "voices/ens075.ogg"
+
+<0000FE70:0000FE93>
+Wow...I didn't see that one coming.
+
+<0000FEB4:0000FEB6>
+s2
+
+<0000FEE5:0000FF0A>
+So...Pops is gonna be here. What now?
+
+<0000FF51:0000FF7A>
+At least I have a few hours to prepare...
+
+<0000FFE0:0000FFE8>
+dissolve
+
+<00010009:00010017>
+i_farmentrance
+
+<00010098:000100CD>
+The few hours I have pass faster than I want them to.
+
+<00010114:00010176>
+Even as my father's car rumbles into the driveway, I'm no better prepared than I was this morning.
+
+<000101E5:000101ED>
+jilldate
+
+<00010231:00010287>
+As his car slows to a halt, the passenger door swings open and Jill comes rushing out.
+
+<000102ED:000102F5>
+dissolve
+
+<00010316:0001031C>
+i_jill
+
+<0001032B:00010334>
+scale(.6)
+
+<0001033E:0001035D>
+Position(xalign=.5,yalign=-.2) 
+
+<000103E1:000103FA>
+voice "voices/enj000.ogg"
+
+<00010432:00010438>
+Steve!
+
+<00010459:0001045A>
+j
+
+<00010495:000104A8>
+es=emo["surprised"]
+
+<000104FA:00010513>
+voice "voices/ens076.ogg"
+
+<0001054B:00010569>
+Jill! What are you doing here?
+
+<0001058A:0001058C>
+s2
+
+<000105BB:000105EB>
+She runs up to me and throws her arms around me.
+
+<00010651:00010659>
+dissolve
+
+<0001067A:00010680>
+i_jill
+
+<00010685:00010688>
+sad
+
+<00010697:000106A0>
+scale(.8)
+
+<000106AA:000106CA>
+Position(xalign=.5,yalign=-.05) 
+
+<0001074E:00010767>
+voice "voices/enj001.ogg"
+
+<0001079F:000107DA>
+I was so worried about you! Your dad told me what happened.
+
+<000107FB:000107FC>
+j
+
+<0001082B:00010844>
+voice "voices/enj002.ogg"
+
+<0001087C:00010890>
+I had to come along.
+
+<000108B1:000108B2>
+j
+
+<000108E1:000108FA>
+voice "voices/ens077.ogg"
+
+<00010932:00010942>
+Wow...thank you.
+
+<00010963:00010965>
+s2
+
+<00010994:00010A01>
+I tentatively put my arms around her, but my father approches, breaking off any discussion we might have had.
+
+<00010A49:00010A57>
+i_farmentrance
+
+<00010AA0:00010AA6>
+i_jill
+
+<00010AAB:00010AAE>
+sad
+
+<00010ABD:00010AC6>
+scale(.5)
+
+<00010AD0:00010AF1>
+Position (xalign=0.2,yalign=-1.5)
+
+<00010B38:00010B40>
+i_father
+
+<00010B45:00010B48>
+sad
+
+<00010B57:00010B60>
+scale(.5)
+
+<00010B6A:00010B88>
+Position(xalign=.9,yalign=-.5)
+
+<00010BCE:00010BD6>
+dissolve
+
+<00010C19:00010C32>
+voice "voices/enf009.ogg"
+
+<00010C6A:00010C71>
+Steven.
+
+<00010C92:00010C93>
+f
+
+<00010CCE:00010CDE>
+es=emo["normal"]
+
+<00010D30:00010D49>
+voice "voices/ens078.ogg"
+
+<00010D81:00010D85>
+Hey.
+
+<00010DA6:00010DA8>
+s2
+
+<00010DDC:00010DF5>
+voice "voices/enf010.ogg"
+
+<00010E2D:00010E37>
+How's Sam?
+
+<00010E58:00010E59>
+f
+
+<00010E88:00010EA1>
+voice "voices/ens079.ogg"
+
+<00010ED9:00010F14>
+Oh, no better and no worse than when we spoke on the phone.
+
+<00010F35:00010F37>
+s2
+
+<00010F85:00010F8D>
+dissolve
+
+<00010FAE:00010FB6>
+i_father
+
+<00010FBB:00010FC4>
+surprised
+
+<00010FD3:00010FDC>
+scale(.5)
+
+<00010FE6:00011005>
+Position(xalign=.9,yalign=-.5) 
+
+<000110A3:000110AB>
+dissolve
+
+<000110CC:000110D4>
+i_father
+
+<000110D9:000110DC>
+sad
+
+<000110EB:000110F4>
+scale(.5)
+
+<000110FE:0001111D>
+Position(xalign=.9,yalign=-.5) 
+
+<000111A1:000111BA>
+voice "voices/enf011.ogg"
+
+<000111F2:000111FA>
+I see...
+
+<0001121B:0001121C>
+f
+
+<0001124B:00011264>
+voice "voices/ens080.ogg"
+
+<0001129C:000112ED>
+You can wait inside. I'm sure Susana will call soon. The phone is in the kitchen.
+
+<0001130E:00011310>
+s2
+
+<0001133F:000113A1>
+My father looks like he wants to argue with me, but he just nods quietly and enters the farmhouse.
+
+<000113E9:000113F7>
+i_farmentrance
+
+<00011440:00011446>
+i_jill
+
+<0001144B:0001144E>
+sad
+
+<0001145D:00011466>
+scale(.6)
+
+<00011470:0001148E>
+Position(xalign=.5,yalign=-.2)
+
+<000114D4:000114DC>
+dissolve
+
+<0001152B:0001156E>
+renpy.music.play("snd/lateafternoonrain.ogg", loop=True,fadein=0.5)
+
+<000115BF:000115D8>
+voice "voices/ens081.ogg"
+
+<00011610:00011615>
+So...
+
+<00011636:00011638>
+s2
+
+<0001166C:00011685>
+voice "voices/enj003.ogg"
+
+<000116BD:000116C3>
+Hey...
+
+<000116E4:000116E5>
+j
+
+<00011714:0001172D>
+voice "voices/ens082.ogg"
+
+<00011765:00011787>
+You didn't have to come, you know.
+
+<000117A8:000117AA>
+s2
+
+<000117DE:000117F7>
+voice "voices/enj004.ogg"
+
+<0001182F:00011861>
+But I wanted to. I want to be here for you, Steve.
+
+<00011882:00011883>
+j
+
+<000118AD:000118F4>
+She looks at me, concerned. Even now, she still cares about me so much.
+
+<0001194E:0001195B>
+es=emo["sad"]
+
+<000119AD:000119C6>
+voice "voices/ens083.ogg"
+
+<000119FE:00011A05>
+Jill...
+
+<00011A26:00011A28>
+s2
+
+<00011A5C:00011A75>
+voice "voices/enj005.ogg"
+
+<00011AAD:00011AB1>
+Yes?
+
+<00011AD2:00011AD3>
+j
+
+<00011B02:00011B1B>
+voice "voices/ens084.ogg"
+
+<00011B53:00011B5E>
+Forgive me.
+
+<00011B7F:00011B81>
+s2
+
+<00011BCF:00011BD7>
+dissolve
+
+<00011BF8:00011BFE>
+i_jill
+
+<00011C03:00011C0C>
+surprised
+
+<00011C1B:00011C24>
+scale(.6)
+
+<00011C2E:00011C4D>
+Position(xalign=.4,yalign=-.2) 
+
+<00011CD1:00011CEA>
+voice "voices/enj006.ogg"
+
+<00011D22:00011D27>
+What?
+
+<00011D48:00011D49>
+j
+
+<00011D92:00011D9A>
+dissolve
+
+<00011DBB:00011DC1>
+i_jill
+
+<00011DC6:00011DC9>
+sad
+
+<00011DD8:00011DE1>
+scale(.6)
+
+<00011DEB:00011E0A>
+Position(xalign=.5,yalign=-.2) 
+
+<00011E8E:00011EA7>
+voice "voices/ens085.ogg"
+
+<00011EDF:00011F22>
+I took you for granted. I didn't respect you. I didn't cherish you.
+
+<00011F43:00011F45>
+s2
+
+<00011F74:00011FA2>
+I throw my arms around her and pull her close.
+
+<00012008:00012010>
+dissolve
+
+<00012031:00012037>
+i_jill
+
+<0001203C:0001203F>
+sad
+
+<0001204E:00012057>
+scale(.8)
+
+<00012061:00012081>
+Position(xalign=.5,yalign=-.05) 
+
+<00012105:0001211E>
+voice "voices/ens086.ogg"
+
+<00012156:0001218C>
+I still love you! And I'm so sorry for what I've done.
+
+<000121AD:000121AF>
+s2
+
+<000121FD:00012205>
+dissolve
+
+<00012226:0001222C>
+i_jill
+
+<00012231:00012234>
+cry
+
+<00012243:0001224C>
+scale(.8)
+
+<00012256:00012276>
+Position(xalign=.5,yalign=-.05) 
+
+<000122FC:00012315>
+voice "voices/enj007.ogg"
+
+<0001234D:00012355>
+Steve...
+
+<00012376:00012377>
+j
+
+<000123A6:000123BF>
+voice "voices/ens087.ogg"
+
+<000123F7:00012447>
+I was so angry when you broke up with me. I thought you were being unreasonable.
+
+<0001246A:0001246C>
+s2
+
+<000124A0:000124B9>
+voice "voices/ens088.ogg"
+
+<000124F1:000124FB>
+But now...
+
+<0001251E:00012520>
+s2
+
+<0001254F:000125A5>
+I run my fingers slowly through her hair, taking in the familiar scent of her shampoo.
+
+<000125F3:0001260C>
+voice "voices/ens089.ogg"
+
+<00012644:000126A2>
+I learned so much while I was here, but the most important thing I learned is that I need you.
+
+<000126C5:000126C7>
+s2
+
+<000126FB:00012714>
+voice "voices/ens090.ogg"
+
+<0001274C:00012789>
+Please...you don't even have to love me. But just forgive me!
+
+<000127AC:000127AE>
+s2
+
+<000127DD:00012833>
+Jill wraps her arms around my neck and pulls me close, pressing her lips against mine.
+
+<0001289B:000128A3>
+dissolve
+
+<000128C4:000128CD>
+kiss_jill
+
+<00012952:00012972>
+Her lips are so warm and soft...
+
+<000129B9:00012A17>
+Suddenly, all the stress and weight that has been piling up on me since last night melts away.
+
+<00012A5E:00012A91>
+I draw Jill closer to me, kissing her passionately.
+
+<00012AD8:00012B1F>
+Her body still fits perfectly in my arms as if we had never been apart.
+
+<00012B66:00012BAF>
+As I move my hands down her sides, I feel as if I'm suddenly whole again.
+
+<00012BF6:00012C34>
+The warmth of her body floods into mine, filling me with life.
+
+<00012C7B:00012CAC>
+Feeling her in my arms...her body against mine...
+
+<00012CF5:00012D2B>
+For this moment, nothing in the world matters but her.
+
+<00012D74:00012DC4>
+She runs her fingers through my hair before we slowly and reluctantly part lips.
+
+<00012E0E:00012E1C>
+i_farmentrance
+
+<00012E67:00012E6D>
+i_jill
+
+<00012E72:00012E78>
+blush2
+
+<00012E87:00012E90>
+scale(.6)
+
+<00012E9A:00012EB8>
+Position(xalign=.5,yalign=-.2)
+
+<00012F00:00012F08>
+dissolve
+
+<00012F59:00012F6C>
+es=emo["surprised"]
+
+<00012FBE:00012FD7>
+voice "voices/ens091.ogg"
+
+<0001300F:00013015>
+Wow...
+
+<00013036:00013038>
+s2
+
+<00013067:000130AE>
+My heart is beating so hard, I can feel it pounding against my ribcage.
+
+<00013108:00013117>
+es=emo["happy"]
+
+<00013169:00013182>
+voice "voices/ens092.ogg"
+
+<000131BA:000131D1>
+I take it I'm forgiven?
+
+<000131F2:000131F4>
+s2
+
+<00013242:0001324A>
+dissolve
+
+<0001326B:00013271>
+i_jill
+
+<00013276:0001327B>
+blush
+
+<0001328A:00013293>
+scale(.6)
+
+<0001329D:000132BC>
+Position(xalign=.5,yalign=-.2) 
+
+<00013342:0001335B>
+voice "voices/enj008.ogg"
+
+<00013393:000133A5>
+What do you think?
+
+<000133C6:000133C7>
+j
+
+<00013404:00013451>
+The car slows to a stop and the door on the driver's side swings open slowly.
+
+<000134B7:000134BF>
+dissolve
+
+<000134E0:000134E8>
+i_father
+
+<000134ED:000134F0>
+sad
+
+<000134FF:00013508>
+scale(.5)
+
+<00013512:00013531>
+Position(xalign=.5,yalign=-.5) 
+
+<000135B5:000135CE>
+voice "voices/enf012.ogg"
+
+<00013606:0001360D>
+Steven.
+
+<0001362E:0001362F>
+f
+
+<0001366A:0001367A>
+es=emo["normal"]
+
+<000136CC:000136E5>
+voice "voices/ens093.ogg"
+
+<0001371D:00013721>
+Hey.
+
+<00013742:00013744>
+s2
+
+<00013778:00013791>
+voice "voices/enf013.ogg"
+
+<000137C9:000137DC>
+Is everything okay?
+
+<000137FD:000137FE>
+f
+
+<00013839:00013846>
+es=emo["sad"]
+
+<00013898:000138B1>
+voice "voices/ens094.ogg"
+
+<000138E9:00013925>
+I don't know...I haven't heard anything since you called me.
+
+<00013946:00013948>
+s2
+
+<0001397C:00013995>
+voice "voices/enf014.ogg"
+
+<000139CD:000139D3>
+I see.
+
+<000139F4:000139F5>
+f
+
+<00013A1F:00013A7E>
+The two of us stand in awkward silence for awhile until I finally take the initiative to speak.
+
+<00013ACA:00013AE3>
+voice "voices/ens095.ogg"
+
+<00013B1B:00013B33>
+So. How was your summer?
+
+<00013B54:00013B56>
+s2
+
+<00013B8A:00013BA3>
+voice "voices/enf015.ogg"
+
+<00013BDB:00013BF5>
+The usual. What about you?
+
+<00013C16:00013C17>
+f
+
+<00013C46:00013C5F>
+voice "voices/ens096.ogg"
+
+<00013C97:00013CA9>
+Um, it was fine...
+
+<00013CCA:00013CCC>
+s2
+
+<00013D0C:00013D47>
+renpy.music.play("snd/onyourown.ogg", loop=True,fadein=0.5)
+
+<00013DB7:00013DC1>
+susanadate
+
+<00013E05:00013E46>
+Before we can continue our stilted conversation, we hear honking.
+
+<00013E8D:00013EB1>
+Trent is pulling in to the driveway.
+
+<00013EF8:00013F1F>
+Susana exits from the passenger's side.
+
+<00013F67:00013F75>
+i_farmentrance
+
+<00013FBE:00013FC6>
+i_father
+
+<00013FCB:00013FCE>
+sad
+
+<00013FDD:00013FE6>
+scale(.5)
+
+<00013FF0:0001400E>
+Position(xalign=.1,yalign=-.5)
+
+<00014055:0001405D>
+i_susana
+
+<00014062:00014065>
+sad
+
+<00014074:0001407D>
+scale(.5)
+
+<00014087:000140A7>
+Position(xalign=.85,yalign=-1.2)
+
+<000140ED:000140F5>
+dissolve
+
+<00014138:00014152>
+voice "voices/ensu001.ogg"
+
+<0001418A:00014190>
+Steve.
+
+<000141B1:000141B3>
+su
+
+<000141F3:00014206>
+es=emo["surprised"]
+
+<00014258:00014271>
+voice "voices/ens097.ogg"
+
+<000142A9:000142BB>
+Susana! How is he?
+
+<000142DC:000142DE>
+s2
+
+<00014312:0001432C>
+voice "voices/ensu002.ogg"
+
+<00014364:00014396>
+He's stabilized for now, but...he'll need surgery.
+
+<000143B7:000143B9>
+su
+
+<00014407:0001440F>
+dissolve
+
+<00014430:00014438>
+i_father
+
+<0001443D:00014446>
+surprised
+
+<00014455:0001445E>
+scale(.5)
+
+<00014468:00014487>
+Position(xalign=.1,yalign=-.5) 
+
+<0001450B:00014524>
+voice "voices/enf016.ogg"
+
+<0001455C:00014564>
+Surgery?
+
+<00014585:00014586>
+f
+
+<000145B5:000145CF>
+voice "voices/ensu003.ogg"
+
+<00014607:00014626>
+Ah...you must be Sam's brother.
+
+<00014647:00014649>
+su
+
+<00014697:0001469F>
+dissolve
+
+<000146C0:000146C8>
+i_father
+
+<000146CD:000146D0>
+sad
+
+<000146DF:000146E8>
+scale(.5)
+
+<000146F2:00014711>
+Position(xalign=.1,yalign=-.5) 
+
+<00014795:000147AE>
+voice "voices/enf017.ogg"
+
+<000147E6:0001483C>
+Yes. My name is Michael. I apologize that we couldn't meet under better circumstances.
+
+<0001485D:0001485E>
+f
+
+<0001488D:000148A7>
+voice "voices/ensu004.ogg"
+
+<000148DF:00014915>
+It's fine. I'm happy to meet you. You have a fine son.
+
+<00014936:00014938>
+su
+
+<00014967:00014998>
+Father raises an eyebrow, but he doesn't comment.
+
+<000149E4:000149FE>
+voice "voices/ensu005.ogg"
+
+<00014A36:00014A7A>
+We can talk about it more once Sam wakes up. The hospital will call.
+
+<00014A9B:00014A9D>
+su
+
+<00014ADD:00014AED>
+es=emo["normal"]
+
+<00014B3F:00014B58>
+voice "voices/ens098.ogg"
+
+<00014B90:00014BB2>
+I guess all we can do now is wait.
+
+<00014BD3:00014BD5>
+s2
+
+<00014C04:00014C65>
+I gaze up at the sky. Leaves drift lazily from the trees, carpeting the ground in red and orange.
+
+<00014CAC:00014D12>
+This place used to look so foreign to me, but over the months that I was here, it's grown so familiar.
+
+<00014D5B:00014D9E>
+Now that Uncle is in the hospital, it suddenly seems foreign again.
+
+<00014DF8:00014E4D>
+Our bland conversation is interrupted by the sound of the phone in the house ringing.
+
+<00014EB8:00014EC2>
+mariandate
+
+<00014F25:00014F2D>
+dissolve
+
+<00014F4E:00014F57>
+i_kitchen
+
+<00014F65:00014F6F>
+scale(.5) 
+
+<00014FF2:0001502A>
+I rush inside to answer it, but Marian is already there.
+
+<00015092:0001509A>
+dissolve
+
+<000150BB:000150C3>
+i_marian
+
+<000150C8:000150CB>
+sad
+
+<000150DA:000150E3>
+scale(.5)
+
+<000150ED:0001510C>
+Position(xalign=.5,yalign=-.8) 
+
+<00015194:000151AD>
+voice "voices/enm017.ogg"
+
+<000151E5:00015204>
+Yes? Yes, thank you. Thank you.
+
+<00015225:00015226>
+m
+
+<00015250:00015272>
+She hangs up and turns to face us.
+
+<000152CA:000152DD>
+es=emo["surprised"]
+
+<0001532F:00015348>
+voice "voices/ens099.ogg"
+
+<00015380:00015383>
+So?
+
+<000153A4:000153A6>
+s2
+
+<000153DA:000153F3>
+voice "voices/enm018.ogg"
+
+<0001544C:00015454>
+dissolve
+
+<00015475:0001547D>
+i_marian
+
+<00015482:00015489>
+normal1
+
+<00015498:000154A1>
+scale(.5)
+
+<000154AB:000154CA>
+Position(xalign=.5,yalign=-.8) 
+
+<0001554D:00015595>
+That was Susana. Sam has been stablized for now, but he'll need surgery.
+
+<000155B6:000155B7>
+m
+
+<000155E2:000155EA>
+i_marian
+
+<000155EF:000155F6>
+normal1
+
+<00015605:0001560F>
+scale(.49)
+
+<00015619:00015638>
+Position(xalign=.9,yalign=-1.3)
+
+<00015681:00015689>
+i_father
+
+<0001568E:00015697>
+surprised
+
+<000156A6:000156AF>
+scale(.5)
+
+<000156B9:000156D7>
+Position(xalign=.1,yalign=-.5)
+
+<0001571D:00015725>
+dissolve
+
+<00015768:00015781>
+voice "voices/enf018.ogg"
+
+<000157B9:000157C1>
+Surgery?
+
+<000157E2:000157E3>
+f
+
+<0001580E:00015816>
+i_father
+
+<0001581B:0001581E>
+sad
+
+<0001582D:00015836>
+scale(.5)
+
+<00015840:0001585E>
+Position(xalign=.1,yalign=-.5)
+
+<000158A5:000158AD>
+i_marian
+
+<000158B2:000158BC>
+surprised1
+
+<000158CB:000158D5>
+scale(.49)
+
+<000158DF:000158FE>
+Position(xalign=.9,yalign=-1.3)
+
+<00015946:0001594E>
+dissolve
+
+<0001598C:000159D6>
+Marian looks up in surprise as if she hadn't even noticed my father enter.
+
+<00015A22:00015A3B>
+voice "voices/enm019.ogg"
+
+<00015A94:00015A9C>
+dissolve
+
+<00015ABD:00015AC5>
+i_marian
+
+<00015ACA:00015AD1>
+normal2
+
+<00015AE0:00015AEA>
+scale(.49)
+
+<00015AF4:00015B14>
+Position(xalign=.9,yalign=-1.3) 
+
+<00015B97:00015BB0>
+Ah...you must be Michael.
+
+<00015BD1:00015BD2>
+m
+
+<00015BFC:00015C0F>
+She extends a hand.
+
+<00015C5B:00015C74>
+voice "voices/enm020.ogg"
+
+<00015CCD:00015CD5>
+dissolve
+
+<00015CF6:00015CFE>
+i_marian
+
+<00015D03:00015D0A>
+normal1
+
+<00015D19:00015D23>
+scale(.49)
+
+<00015D2D:00015D4D>
+Position(xalign=.9,yalign=-1.3) 
+
+<00015DD0:00015DEC>
+It's a pleasure to meet you.
+
+<00015E0D:00015E0E>
+m
+
+<00015E57:00015E5F>
+dissolve
+
+<00015E80:00015E88>
+i_father
+
+<00015E97:00015EA0>
+scale(.5)
+
+<00015EAA:00015EC9>
+Position(xalign=.1,yalign=-.5) 
+
+<00015F4D:00015F66>
+voice "voices/enf019.ogg"
+
+<00015F9E:00015FD1>
+The pleasure is mine. Are you a friend of my son's?
+
+<00015FF2:00015FF3>
+f
+
+<0001601D:00016031>
+Marian smiles at me.
+
+<0001607D:00016096>
+voice "voices/enm021.ogg"
+
+<000160EF:000160F7>
+dissolve
+
+<00016118:00016120>
+i_marian
+
+<00016125:0001612B>
+happy1
+
+<0001613A:00016144>
+scale(.49)
+
+<0001614E:0001616E>
+Position(xalign=.9,yalign=-1.3) 
+
+<000161F1:00016206>
+You could say that...
+
+<00016227:00016228>
+m
+
+<00016252:00016297>
+Pops looks coolly at me and back to her, but he doesn't say anything.
+
+<00016310:00016318>
+dissolve
+
+<00016339:00016342>
+i_kitchen
+
+<00016350:0001635A>
+scale(.5) 
+
+<000163DD:0001641C>
+I run into the house and snatch up the phone from the receiver.
+
+<00016474:00016484>
+es=emo["normal"]
+
+<000164D6:000164EF>
+voice "voices/ens100.ogg"
+
+<00016527:0001652D>
+Hello?
+
+<0001654E:00016550>
+s2
+
+<00016580:0001658B>
+i_jillframe
+
+<00016599:0001659D>
+left
+
+<000165E6:000165EE>
+i_susana
+
+<000165F3:000165F6>
+sad
+
+<00016605:0001660F>
+scale(.95)
+
+<00016619:00016639>
+Position(xalign=-.8,yalign=.05) 
+
+<0001667F:00016687>
+dissolve
+
+<000166CA:000166E4>
+voice "voices/ensu006.ogg"
+
+<0001671C:00016727>
+Hey, Steve.
+
+<00016748:0001674A>
+su
+
+<0001678A:0001679D>
+es=emo["surprised"]
+
+<000167EF:00016808>
+voice "voices/ens101.ogg"
+
+<00016840:00016852>
+Susana! How is he?
+
+<00016873:00016875>
+s2
+
+<000168A9:000168C3>
+voice "voices/ensu007.ogg"
+
+<000168FB:0001691F>
+He's stable. But he'll need surgery.
+
+<00016940:00016942>
+su
+
+<00016976:0001698F>
+voice "voices/ens102.ogg"
+
+<000169C7:000169E5>
+Surgery...I see. Well, thanks.
+
+<00016A06:00016A08>
+s2
+
+<00016A3C:00016A56>
+voice "voices/ensu008.ogg"
+
+<00016A8E:00016A93>
+Yeah.
+
+<00016AB4:00016AB6>
+su
+
+<00016B04:00016B0C>
+dissolve
+
+<00016B2D:00016B36>
+i_kitchen
+
+<00016B44:00016B4E>
+scale(.5) 
+
+<00016BD3:00016BF8>
+I hang up and turn to face my father.
+
+<00016C50:00016C60>
+es=emo["normal"]
+
+<00016CB2:00016CCB>
+voice "voices/ens103.ogg"
+
+<00016D03:00016D1F>
+She says he'll need surgery.
+
+<00016D40:00016D42>
+s2
+
+<00016D90:00016D98>
+dissolve
+
+<00016DB9:00016DC1>
+i_father
+
+<00016DC6:00016DC9>
+sad
+
+<00016DD8:00016DE1>
+scale(.5)
+
+<00016DEB:00016E0A>
+Position(xalign=.5,yalign=-.5) 
+
+<00016E8E:00016EA7>
+voice "voices/enf020.ogg"
+
+<00016EDF:00016EE7>
+I see...
+
+<00016F08:00016F09>
+f
+
+<00016F56:00016F5F>
+claradate
+
+<00016FA3:00016FC4>
+I hear a light knock on the door.
+
+<00017010:00017029>
+voice "voices/enc006.ogg"
+
+<00017061:00017067>
+Hello?
+
+<00017088:00017089>
+c
+
+<000170B4:000170BD>
+i_kitchen
+
+<000170CB:000170D4>
+scale(.5)
+
+<0001711F:00017127>
+i_father
+
+<0001712C:0001712F>
+sad
+
+<0001713E:00017147>
+scale(.5)
+
+<00017151:0001716F>
+Position(xalign=.1,yalign=-.5)
+
+<000171B6:000171BD>
+i_clara
+
+<000171C2:000171C5>
+sad
+
+<000171D4:000171DE>
+scale(.47)
+
+<000171E8:00017208>
+Position(xalign=.83,yalign=-2.9)
+
+<0001724E:00017256>
+dissolve
+
+<00017299:000172B2>
+voice "voices/enc007.ogg"
+
+<000172EA:000172FB>
+Steve! How is he?
+
+<0001731C:0001731D>
+c
+
+<0001734C:00017365>
+voice "voices/ens104.ogg"
+
+<0001739D:000173B7>
+Susana says he'll be okay.
+
+<000173D8:000173DA>
+s2
+
+<0001740E:00017427>
+voice "voices/enc008.ogg"
+
+<0001745F:0001746F>
+Oh, I'm so glad.
+
+<00017490:00017491>
+c
+
+<000174BB:000174E2>
+Clara looks up at my father, surprised.
+
+<00017548:00017550>
+dissolve
+
+<00017571:00017578>
+i_clara
+
+<00017587:00017591>
+scale(.47)
+
+<0001759B:000175BC>
+Position(xalign=.83,yalign=-2.9) 
+
+<00017640:00017659>
+voice "voices/enc009.ogg"
+
+<00017691:000176DB>
+Oh, I'm sorry. You must be Steve's father. I'm Clara. I'm dating your son.
+
+<000176FC:000176FD>
+c
+
+<00017727:00017742>
+Wow...as forward as always.
+
+<00017789:000177BD>
+Pops looks at me quizically, but he doesn't comment.
+
+<00017823:0001782B>
+dissolve
+
+<0001784C:00017854>
+i_father
+
+<00017863:0001786C>
+scale(.5)
+
+<00017876:00017895>
+Position(xalign=.1,yalign=-.5) 
+
+<00017919:00017932>
+voice "voices/enf021.ogg"
+
+<0001796A:0001798D>
+It's a pleasure to meet you, Clara.
+
+<000179AE:000179AF>
+f
+
+<000179DE:000179F7>
+voice "voices/enc010.ogg"
+
+<00017A2F:00017A37>
+You too!
+
+<00017A58:00017A59>
+c
+
+<00017A83:00017A98>
+She turns back to me.
+
+<00017AE4:00017AFD>
+voice "voices/enc011.ogg"
+
+<00017B35:00017B52>
+So what are you gonna do now?
+
+<00017B73:00017B74>
+c
+
+<00017BC5:00017BD5>
+es=emo["normal"]
+
+<00017C27:00017C40>
+voice "voices/ens105.ogg"
+
+<00017C78:00017C9A>
+I guess all we can do now is wait.
+
+<00017CBB:00017CBD>
+s2
+
+<00017CEC:00017D4C>
+Orpheus enters the kitchen and makes her way quickly to me, keeping her distance from my father.
+
+<00017D93:00017DA5>
+I can't blame her.
+
+<00017DEC:00017E3A>
+It's weird to think that when I first came here, she wouldn't even look at me.
+
+<00017E81:00017EB2>
+But now...it's as if I'm the only friend she has.
+
+<00017F04:00017F38>
+::sigh:: What a way to end my summer in Fairbrook...
+
+<00017F90:00017FAB>
+renpy.music.stop(fadeout=1)
+
+<0001800E:00018016>
+epilogue
+
+<0001803F:00018049>
+callfather
+
+<0001809B:000180D7>
+renpy.music.play("snd/tuscandawn.ogg", loop=True,fadein=0.5)
+
+<00018187:0001818F>
+cash>999
+
+<000181E3:000181F1>
+farming = True
+
+<00018263:00018272>
+farming = False
+
+<000182ED:000182F1>
+fade
+
+<00018312:00018319>
+i_alley
+
+<0001839E:000183D5>
+It's been two months since Uncle had a coronary bypass.
+
+<0001841E:0001844E>
+The surgery and the recovery both went smoothly.
+
+<00018497:000184DE>
+After that, he wasn't allowed to do strenuous work on the farm anymore.
+
+<00018527:000185BD>
+Naturally, he protested, but Marian, Susana, Clara, Trent, Jacob, and I all ganged up on him and made him promise not to do any more work on the farm.
+
+<0001862C:00018635>
+claradate
+
+<00018684:0001868C>
+claraend
+
+<000186B6:000186C0>
+susanadate
+
+<0001870F:00018718>
+susanaend
+
+<00018742:0001874C>
+mariandate
+
+<0001879B:000187A4>
+marianend
+
+<000187CE:000187D6>
+jilldate
+
+<00018825:0001882C>
+jillend
+
+<0001887E:00018888>
+stevealone
+
+<000188BC:000188C4>
+epilogue
+
+<00018905:0001892E>
+Clara and I are officially a couple, now.
+
+<0001899D:000189C4>
+farming and int(new_attributes[1]) > 70
+
+<00018A29:00018A31>
+dissolve
+
+<00018A52:00018A58>
+i_farm
+
+<00018ADD:00018B58>
+Pops convinced Uncle that it was best if he and Orpheus moved to a city near Los Angeles where they could live comfortably.
+
+<00018BA1:00018BEC>
+Uncle was so impressed with my work on the farm, he wanted me to take over.
+
+<00018C35:00018C6C>
+Farming was really something that I loved, so I agreed.
+
+<00018CDB:00018CE6>
+aboutfather
+
+<00018D2A:00018D89>
+Together, Clara and I managed to convince her father to let her go to college in San Francisco.
+
+<00018DD2:00018E26>
+Although she lives in the dorms there, she always comes back each weekend to see me.
+
+<00018E81:00018EC7>
+Clara finally convinced her father to let her go to community college.
+
+<00018F1B:00018F88>
+Thankfully, there are plans to put in a new railway that will connect Fairbrook so some of the bigger cities.
+
+<00018FD1:00019041>
+Clara can barely contain her excitement. Personally, I like the idea of being able to visit the city a lot, too.
+
+<0001908A:000190D9>
+In the meantime, Jacob's been spending a lot more time at Susana's flower shop.
+
+<00019122:00019195>
+I think he's attracted to her sweet nature, and Trent is just happy that such a responsible guy is helping her out.
+
+<00019204:00019212>
+likeolderwomen
+
+<00019256:000192AB>
+Speaking of Trent, he seems to be spending a lot more time at the library these days.
+
+<000192F4:00019330>
+Somehow, I doubt it's because he's interested in literature.
+
+<0001938C:000193CF>
+Marian is now getting published regularly in a literature magazine.
+
+<00019418:0001946D>
+She says they've even offered her a position as judge for an upcoming poetry contest.
+
+<000194E7:000194EF>
+lovejill
+
+<00019532:00019599>
+Jill and I still talk on the phone once in awhile. She's planning to spend a semester abroad next year.
+
+<000195F4:0001964E>
+Jill and I talk on the phone occasionally, but we've basically gone our separate ways now.
+
+<000196C3:000196CB>
+dissolve
+
+<000196EC:000196F9>
+i_clarasporty
+
+<00019708:00019711>
+scale(.5)
+
+<0001971B:0001973C>
+Position(xalign=0.55,yalign=-.3) 
+
+<000197C4:000197DD>
+voice "voices/enc012.ogg"
+
+<00019815:0001984E>
+Hey slowpoke, are you going to run with me today or what?
+
+<00019871:00019872>
+c
+
+<000198AD:000198C0>
+es=emo["surprised"]
+
+<00019914:0001992D>
+voice "voices/ens106.ogg"
+
+<00019965:00019973>
+Huh? Oh, yeah.
+
+<00019996:00019997>
+s
+
+<000199C2:000199C8>
+i_path
+
+<00019A13:00019A20>
+i_clarasporty
+
+<00019A25:00019A2A>
+happy
+
+<00019A39:00019A42>
+scale(.5)
+
+<00019A4C:00019A6C>
+Position(xalign=0.55,yalign=-.3)
+
+<00019AB4:00019ABC>
+dissolve
+
+<00019B01:00019B1A>
+voice "voices/enc013.ogg"
+
+<00019B52:00019B61>
+Try to keep up.
+
+<00019B84:00019B85>
+c
+
+<00019BC0:00019BCF>
+es=emo["happy"]
+
+<00019C23:00019C3C>
+voice "voices/ens107.ogg"
+
+<00019C74:00019C90>
+I could say the same to you!
+
+<00019CB3:00019CB4>
+s
+
+<00019CDE:00019D1C>
+As I run along the now familiar trail, I can't help but smile.
+
+<00019D65:00019DB4>
+A scant few months ago, I was so lost with no direction and no love in my life.
+
+<00019DFD:00019E60>
+It seems like just yesterday, I was dragging myself along this trail while Clara raced ahead of me.
+
+<00019EA9:00019EED>
+But now, running with her...no, just being with her is my every day.
+
+<00019F36:00019F6A>
+For a moment, I stop to take in the scene around me.
+
+<00019FB3:00019FDF>
+Clara takes the opportunity to dash past me.
+
+<0001A029:0001A036>
+i_clarasporty
+
+<0001A045:0001A04E>
+scale(.5)
+
+<0001A058:0001A078>
+Position(xalign=0.55,yalign=-.3)
+
+<0001A0C5:0001A0DE>
+voice "voices/enc014.ogg"
+
+<0001A116:0001A122>
+You're slow!
+
+<0001A145:0001A146>
+c
+
+<0001A170:0001A192>
+She calls to me over her shoulder.
+
+<0001A1E0:0001A1F9>
+voice "voices/ens108.ogg"
+
+<0001A231:0001A23A>
+Why you-!
+
+<0001A25D:0001A25E>
+s
+
+<0001A288:0001A2AA>
+With a laugh I take off after her.
+
+<0001A2F3:0001A315>
+These days, I finally have a life.
+
+<0001A35E:0001A374>
+I finally have a love.
+
+<0001A3BD:0001A3D7>
+And I couldn't be happier.
+
+<0001A454:0001A45C>
+dissolve
+
+<0001A47D:0001A483>
+i_park
+
+<0001A508:0001A55B>
+Uncle sold the farm and he and Orpheus moved to a nice town outside of Los Angeles.
+
+<0001A5A4:0001A5C3>
+I visit them as often as I can.
+
+<0001A632:0001A63A>
+lovejill
+
+<0001A67D:0001A6DE>
+Jill is currently studying abroad in Germany. The last postcard she sent says she loves it there.
+
+<0001A739:0001A77B>
+I still see Jill once in awhile, but we've gone our separate ways.
+
+<0001A7CF:0001A7EF>
+Susana still writes every month.
+
+<0001A838:0001A879>
+Apparently Jacob's been spending a lot more time with her lately.
+
+<0001A8C2:0001A931>
+Trent seems to be pretty happy with the arrangement. I guess he's pleased that Jacob is such a responsible guy.
+
+<0001A9A0:0001A9AE>
+likeolderwomen
+
+<0001A9F2:0001AA47>
+Speaking of Trent, he seems to be spending a lot more time at the library these days.
+
+<0001AA90:0001AACC>
+Somehow, I doubt it's because he's interested in literature.
+
+<0001AB28:0001AB6B>
+Marian is now getting published regularly in a literature magazine.
+
+<0001ABB4:0001AC09>
+She says they've even offered her a position as judge for an upcoming poetry contest.
+
+<0001AC5D:0001ACBC>
+Clara and her dad worked things out, and she's going to college with Jill and I in Los Angeles.
+
+<0001AD2B:0001AD38>
+makeupwithdad
+
+<0001AD7C:0001ADC3>
+I somehow managed to convince my father to allow Clara to stay with us.
+
+<0001AE0C:0001AE62>
+He's actually very impressed by her outgoing personality and unflagging determination.
+
+<0001AEBD:0001AEF2>
+She lives in the dorms, and I visit her all the time.
+
+<0001AF46:0001AF97>
+And of course, the two of us go jogging through the park around campus every day.
+
+<0001AFE1:0001AFEE>
+i_clarasporty
+
+<0001AFFD:0001B007>
+scale(.45)
+
+<0001B011:0001B031>
+Position(xalign=0.5,yalign=-5.5)
+
+<0001B07E:0001B097>
+voice "voices/enc015.ogg"
+
+<0001B0CF:0001B0E7>
+Hey, Steve! Ready to go?
+
+<0001B10A:0001B10B>
+c
+
+<0001B146:0001B155>
+es=emo["happy"]
+
+<0001B1A9:0001B1C2>
+voice "voices/ens109.ogg"
+
+<0001B1FA:0001B202>
+You bet!
+
+<0001B225:0001B226>
+s
+
+<0001B250:0001B286>
+The two of us take off down the path through the park.
+
+<0001B2CF:0001B347>
+It's weird to think that just a few months ago, I was standing here alone feeling as if I had nothing left in the world.
+
+<0001B390:0001B3B1>
+And now, with Clara at my side...
+
+<0001B3FA:0001B429>
+There's nothing else in this world that I want.
+
+<0001B48E:0001B4A9>
+renpy.music.stop(fadeout=1)
+
+<0001B501:0001B508>
+credits
+
+<0001B531:0001B539>
+claraend
+
+<0001B59B:0001B5A3>
+dissolve
+
+<0001B5C4:0001B5D0>
+i_insideshop
+
+<0001B655:0001B6B5>
+After a few more death threats from Trent, I finally managed to get his blessing to date Susana.
+
+<0001B724:0001B74B>
+farming and int(new_attributes[1]) > 70
+
+<0001B78F:0001B7E0>
+Uncle didn't want to leave the farm, so he passed it on to me to take care of it.
+
+<0001B829:0001B86A>
+Susana and I use it to grow even more crops for her to cook with.
+
+<0001B8B3:0001B8FE>
+She's started selling food from her flower shop along with everything else.
+
+<0001B947:0001B99C>
+Her cooking has gotten so popular that people come from all over the state to try it.
+
+<0001BA0B:0001BA13>
+lovejill
+
+<0001BA56:0001BAA5>
+Jill and I still keep in contact. She's planning to study abroad next semester.
+
+<0001BB00:0001BB66>
+I still call Jill once in awhile. She's been offered a part-time job at the Attorney General's office.
+
+<0001BBE0:0001BBEA>
+poemreview
+
+<0001BC2D:0001BC8C>
+Marian has been writing more and more lately, and she's working on publishing a book of poetry.
+
+<0001BCE7:0001BD58>
+Trent seems to be spending more and more time with Marian. It seems as if he's suddenly interested in literature.
+
+<0001BDD2:0001BDDD>
+aboutfather
+
+<0001BE21:0001BE88>
+Clara and her dad managed to patch things up, and she's currently enrolled in college in San Francisco.
+
+<0001BED1:0001BF3D>
+Mr. McFarland agreed to let Jacob take over the farm, so Clara is free to do as she wants with her life now.
+
+<0001BF98:0001BFE7>
+Clara finally convinced her father to let her go to a community college nearby.
+
+<0001C05C:0001C064>
+dissolve
+
+<0001C085:0001C08D>
+i_susana
+
+<0001C092:0001C098>
+happy2
+
+<0001C0A7:0001C0B1>
+scale(.55)
+
+<0001C0BB:0001C0DC>
+Position(xalign=0.5,yalign=-.05) 
+
+<0001C164:0001C17E>
+voice "voices/ensu009.ogg"
+
+<0001C1B6:0001C1C9>
+Is it ready, Steve?
+
+<0001C1EC:0001C1EE>
+su
+
+<0001C22E:0001C23D>
+es=emo["happy"]
+
+<0001C291:0001C2AA>
+voice "voices/ens110.ogg"
+
+<0001C2E2:0001C2E6>
+Yup!
+
+<0001C309:0001C30A>
+s
+
+<0001C334:0001C381>
+I lift the kettle off the stove and pour the hot water into the French press.
+
+<0001C3EB:0001C3F3>
+dissolve
+
+<0001C414:0001C41C>
+i_susana
+
+<0001C421:0001C422>
+2
+
+<0001C431:0001C43B>
+scale(.55)
+
+<0001C445:0001C466>
+Position(xalign=0.5,yalign=-.05) 
+
+<0001C4E9:0001C521>
+Today, Susana and I will be sharing some yerbe mate tea.
+
+<0001C56A:0001C5EC>
+As I sit beside her in our usual spot in the windowsill, I take in a deep breath, enjoying the fragrance of the flowers around us.
+
+<0001C635:0001C688>
+Here in this peaceful place with the most beautiful girl in the world at my side...
+
+<0001C6D1:0001C6E1>
+I know I belong.
+
+<0001C73D:0001C7A5>
+We sold most of the farm to Clara's father, but Uncle didn't want to move, so we let him keep the house.
+
+<0001C7EE:0001C844>
+I live with him so I can keep an eye on him, but Pops comes up frequently to help out.
+
+<0001C88D:0001C8DE>
+Strangely...he seems to be interested in visiting Marian every time he's up here.
+
+<0001C927:0001C97A>
+I suppose I can understand why he'd be interested, but I try not to think about it.
+
+<0001C9E9:0001C9F1>
+lovejill
+
+<0001CA34:0001CA80>
+Jill and I still stay in touch. She's considering studying abroad next year.
+
+<0001CADB:0001CB5F>
+I still call Jill once in awhile. School is going well, and she's hoping to work at the Attorney General's office again next summer.
+
+<0001CBD9:0001CBE4>
+aboutfather
+
+<0001CC28:0001CC8F>
+Clara and her dad managed to patch things up, and she's currently enrolled in college in San Francisco.
+
+<0001CCD8:0001CD44>
+Mr. McFarland agreed to let Jacob take over the farm, so Clara is free to do as she wants with her life now.
+
+<0001CD9F:0001CDEE>
+Clara finally convinced her father to let her go to a community college nearby.
+
+<0001CE42:0001CE70>
+As for me, I now work in Susana's flower shop.
+
+<0001CEDF:0001CEEC>
+makeupwithdad
+
+<0001CF2F:0001CF9E>
+With all of my father's connections, we've managed to increase business quite a bit, so things are always busy.
+
+<0001CFF9:0001D02A>
+It's nice being able to be with her all the time.
+
+<0001D09F:0001D0A7>
+dissolve
+
+<0001D0C8:0001D0D0>
+i_susana
+
+<0001D0D5:0001D0DB>
+happy2
+
+<0001D0EA:0001D0F4>
+scale(.55)
+
+<0001D0FE:0001D11F>
+Position(xalign=0.5,yalign=-.05) 
+
+<0001D1A7:0001D1C1>
+voice "voices/ensu010.ogg"
+
+<0001D1F9:0001D216>
+Steve. It's time to close up.
+
+<0001D239:0001D23B>
+su
+
+<0001D27B:0001D28A>
+es=emo["happy"]
+
+<0001D2DE:0001D2F7>
+voice "voices/ens111.ogg"
+
+<0001D32F:0001D334>
+Okay!
+
+<0001D357:0001D358>
+s
+
+<0001D382:0001D3C0>
+As I lock up the shop for the night, Susana prepares some tea.
+
+<0001D409:0001D452>
+Tonight, we'll share a pot of tea and watch the sunset like we always do.
+
+<0001D49B:0001D4DA>
+And as the evening grows cooler, I'll keep her warm in my arms.
+
+<0001D544:0001D54C>
+dissolve
+
+<0001D56D:0001D575>
+i_susana
+
+<0001D57A:0001D57B>
+2
+
+<0001D58A:0001D594>
+scale(.55)
+
+<0001D59E:0001D5BF>
+Position(xalign=0.5,yalign=-.05) 
+
+<0001D647:0001D661>
+voice "voices/ensu011.ogg"
+
+<0001D699:0001D6A5>
+Tea's ready.
+
+<0001D6C8:0001D6CA>
+su
+
+<0001D6F9:0001D738>
+Susana pours out two cups and sits beside me in the windowsill.
+
+<0001D781:0001D7DB>
+Feeling the warmth of her body against mine as we watch the sky turn from pink to black...
+
+<0001D824:0001D842>
+I know this is where I belong.
+
+<0001D8A7:0001D8C2>
+renpy.music.stop(fadeout=1)
+
+<0001D91A:0001D921>
+credits
+
+<0001D988:0001D991>
+susanaend
+
+<0001D9F0:0001D9F8>
+dissolve
+
+<0001DA19:0001DA22>
+i_library
+
+<0001DAA1:0001DAEB>
+Marian and I have started seeing each other in a more...romantic capacity.
+
+<0001DB31:0001DBA2>
+It's hard to say we're boyfriend and girlfriend because of the age difference, but we definitely love each other.
+
+<0001DC0B:0001DC18>
+makeupwithdad
+
+<0001DC5B:0001DCB7>
+Pops donated a lot of money to refurbish and expand the library. Marian couldn't be happier.
+
+<0001DD0F:0001DD66>
+My father is just happy that I've found someone who's influencing me to be more mature.
+
+<0001DDDA:0001DE01>
+farming and int(new_attributes[1]) > 70
+
+<0001DE45:0001DE96>
+Uncle was impressed by my hard work on the farm, so he asked me to stay with him.
+
+<0001DEDC:0001DF27>
+I love him and the farm, so I agreed to stay and take care of both of them.
+
+<0001DF90:0001DF9E>
+not helponfarm
+
+<0001DFE1:0001E04E>
+Jacob spends a lot more time at Susana's flower shop these days, and she doesn't seem to mind the extra help.
+
+<0001E0A6:0001E0F4>
+Susana visits us all the time. She still makes the best cupcakes in the world.
+
+<0001E168:0001E173>
+aboutfather
+
+<0001E1B6:0001E205>
+Clara managed to convince her father to let her go to college in San Francisco.
+
+<0001E25D:0001E2A3>
+Clara enrolled in a community college, and she seems to be doing well.
+
+<0001E317:0001E31F>
+lovejill
+
+<0001E362:0001E3B2>
+Jill is currently studying abroad for a semester. She writes to me occasionally.
+
+<0001E40A:0001E453>
+I still call Jill once in awhile. She's doing well in college, as always.
+
+<0001E4A9:0001E4C2>
+voice "voices/enm022.ogg"
+
+<0001E51B:0001E523>
+dissolve
+
+<0001E544:0001E54C>
+i_marian
+
+<0001E551:0001E557>
+happy1
+
+<0001E566:0001E56F>
+scale(.6)
+
+<0001E579:0001E598>
+Position(xalign=.5,yalign=-.2) 
+
+<0001E61B:0001E625>
+It's here!
+
+<0001E645:0001E646>
+m
+
+<0001E670:0001E6AF>
+Marian hurries into the library, proudly holding up a magazine.
+
+<0001E6F5:0001E754>
+She's been getting published regularly, and the literature magazine offered her her own column.
+
+<0001E7AB:0001E7BA>
+es=emo["happy"]
+
+<0001E80B:0001E824>
+voice "voices/ens112.ogg"
+
+<0001E85C:0001E867>
+Let me see!
+
+<0001E887:0001E888>
+s
+
+<0001E8B2:0001E8EC>
+We huddle together over the magazine as she flips it open.
+
+<0001E932:0001E997>
+I take the opportunity to play with a few strands of her hair that have come loose from her headband.
+
+<0001E9E2:0001E9FB>
+voice "voices/enm023.ogg"
+
+<0001EA54:0001EA5C>
+dissolve
+
+<0001EA7D:0001EA85>
+i_marian
+
+<0001EA8A:0001EA90>
+happy2
+
+<0001EA9F:0001EAA8>
+scale(.6)
+
+<0001EAB2:0001EAD1>
+Position(xalign=.5,yalign=-.2) 
+
+<0001EB54:0001EB69>
+Ooh, that feels nice.
+
+<0001EB89:0001EB8A>
+m
+
+<0001EBB4:0001EC07>
+We both look admire Marian's new column and I turn to give her a kiss on the cheek.
+
+<0001EC52:0001EC6B>
+voice "voices/ens113.ogg"
+
+<0001ECA3:0001ECB7>
+I'm so proud of you.
+
+<0001ECD7:0001ECD8>
+s
+
+<0001ED07:0001ED20>
+voice "voices/enm024.ogg"
+
+<0001ED79:0001ED81>
+dissolve
+
+<0001EDA2:0001EDAA>
+i_marian
+
+<0001EDAF:0001EDB6>
+normal2
+
+<0001EDC5:0001EDCE>
+scale(.6)
+
+<0001EDD8:0001EDF7>
+Position(xalign=.5,yalign=-.2) 
+
+<0001EE7A:0001EE84>
+Thank you.
+
+<0001EEA4:0001EEA5>
+m
+
+<0001EECF:0001EF2B>
+I put my arm over her shoulder and pull her closer to me. She rests her head oh my shoulder.
+
+<0001EF76:0001EF8F>
+voice "voices/enm025.ogg"
+
+<0001EFE8:0001EFF0>
+dissolve
+
+<0001F011:0001F019>
+i_marian
+
+<0001F01E:0001F025>
+normal1
+
+<0001F034:0001F03D>
+scale(.6)
+
+<0001F047:0001F066>
+Position(xalign=.5,yalign=-.2) 
+
+<0001F0E9:0001F102>
+Thank you for everything.
+
+<0001F122:0001F123>
+m
+
+<0001F14D:0001F172>
+I turn to her and whisper in her ear.
+
+<0001F1BD:0001F1D6>
+voice "voices/ens114.ogg"
+
+<0001F20E:0001F21D>
+Thank you, too.
+
+<0001F23D:0001F23E>
+s
+
+<0001F27B:0001F2DB>
+Uncle sold most of his farm to Clara's dad, keeping only the farmhouse for himself, and Orpheus.
+
+<0001F321:0001F355>
+I stay with them, taking care of whatever they need.
+
+<0001F3BE:0001F3C8>
+helponfarm
+
+<0001F40C:0001F455>
+Mr. McFarland has, in turn, appointed Jacob to take care of his new land.
+
+<0001F49B:0001F4FF>
+With some encouragement from Marian and I, Susana opened up a small cafe to go with her flower shop.
+
+<0001F557:0001F5AD>
+Jacob is spending a lot more time helping Susana at her shop. At least Trent approves.
+
+<0001F621:0001F62C>
+aboutfather
+
+<0001F670:0001F6CF>
+Clara managed to make up with her dad, and she's now happily going to college in San Francisco.
+
+<0001F715:0001F762>
+She still visits us once in awhile, but she definitely prefers the city life.
+
+<0001F7BB:0001F807>
+Clara enrolled in a community college, hoping to go move on after two years.
+
+<0001F84D:0001F892>
+Her father is still thinking about it, but he seems open to the idea.
+
+<0001F906:0001F90E>
+lovejill
+
+<0001F951:0001F9B3>
+Jill is currently spending a semester abroad in Germany. I get post cards from her once in awhile.
+
+<0001FA0C:0001FA2F>
+Jill and I still talk occasionally.
+
+<0001FA75:0001FAD3>
+She was offered a permanent job at the Attorney General's Office, and she leapt at the chance.
+
+<0001FB29:0001FB42>
+voice "voices/enm026.ogg"
+
+<0001FB9B:0001FBA3>
+dissolve
+
+<0001FBC4:0001FBCC>
+i_marian
+
+<0001FBD1:0001FBD7>
+happy1
+
+<0001FBE6:0001FBEF>
+scale(.6)
+
+<0001FBF9:0001FC18>
+Position(xalign=.5,yalign=-.2) 
+
+<0001FC9B:0001FCA5>
+It's here!
+
+<0001FCC5:0001FCC6>
+m
+
+<0001FCF0:0001FD3F>
+Marian hurries into the library holding a package wrapped in plain brown paper.
+
+<0001FD85:0001FDE7>
+I would love to tear it open, but she takes a pair of scissors and opens it neatly along the side.
+
+<0001FE3E:0001FE4D>
+es=emo["happy"]
+
+<0001FE9E:0001FEB7>
+voice "voices/ens115.ogg"
+
+<0001FEEF:0001FEFE>
+It looks great!
+
+<0001FF1E:0001FF1F>
+s
+
+<0001FF49:0001FF8B>
+Inside the package is an advance copy of her first book of poetry.
+
+<0001FFD6:0001FFEF>
+voice "voices/enm027.ogg"
+
+<00020027:00020053>
+I can't believe I'm actually holding this...
+
+<00020073:00020074>
+m
+
+<000200A3:000200BC>
+voice "voices/ens116.ogg"
+
+<000200F4:00020133>
+Hey, we should make it the library's featured book of the week!
+
+<00020153:00020154>
+s
+
+<0002019F:000201A7>
+dissolve
+
+<000201C8:000201D0>
+i_marian
+
+<000201D5:000201DB>
+blush1
+
+<000201EA:000201F3>
+scale(.6)
+
+<000201FD:0002021C>
+Position(xalign=.5,yalign=-.2) 
+
+<0002029F:000202BB>
+Her face flushes bright red.
+
+<00020306:0002031F>
+voice "voices/enm028.ogg"
+
+<00020378:00020380>
+dissolve
+
+<000203A1:000203A9>
+i_marian
+
+<000203AE:000203B4>
+blush2
+
+<000203C3:000203CC>
+scale(.6)
+
+<000203D6:000203F5>
+Position(xalign=.5,yalign=-.2) 
+
+<00020478:00020496>
+I can't do that! That's..that-
+
+<000204B6:000204B7>
+m
+
+<000204E1:00020505>
+I laugh and wrap my arms around her.
+
+<00020550:00020569>
+voice "voices/ens117.ogg"
+
+<000205A1:000205F3>
+I'm teasing you. But truthfully, I think it's okay to be proud of your first book.
+
+<00020613:00020614>
+s
+
+<00020643:0002065C>
+voice "voices/enm029.ogg"
+
+<000206B5:000206BD>
+dissolve
+
+<000206DE:000206E6>
+i_marian
+
+<000206EB:000206F1>
+happy1
+
+<00020700:00020709>
+scale(.6)
+
+<00020713:00020732>
+Position(xalign=.5,yalign=-.2) 
+
+<000207B5:000207EB>
+Thank you, Steve. I wouldn't have done it without you.
+
+<0002080B:0002080C>
+m
+
+<0002083B:00020854>
+voice "voices/ens118.ogg"
+
+<0002088C:000208E6>
+Are you kidding? Without you, I would still be lost and wondering what to do with my life.
+
+<00020906:00020907>
+s
+
+<00020931:00020960>
+I draw her closer to me and whisper in her ear.
+
+<000209AB:000209C4>
+voice "voices/ens119.ogg"
+
+<000209FC:00020A0B>
+Thank you, too.
+
+<00020A2B:00020A2C>
+s
+
+<00020A72:00020A8D>
+renpy.music.stop(fadeout=1)
+
+<00020AE5:00020AEC>
+credits
+
+<00020B15:00020B1E>
+marianend
+
+<00020B5F:00020B9A>
+After more tears and apologies, Jill and I finally made up.
+
+<00020BE0:00020C3A>
+We're officially together again, and our relationship is even stronger than it was before.
+
+<00020CA3:00020CCA>
+farming and int(new_attributes[1]) > 70
+
+<00020D2C:00020D34>
+dissolve
+
+<00020D55:00020D5B>
+i_farm
+
+<00020DDA:00020E31>
+Uncle was so impressed by my farming ablity, he wanted me to stay and help on the farm.
+
+<00020E77:00020ED6>
+Jill transferred colleges to a university in Berkeley so that she could visit me every weekend.
+
+<00020F1C:00020F83>
+We converted the farm into a "pick your own" farm where people can pay to pick their own fresh produce.
+
+<00020FEC:00020FF7>
+aboutfather
+
+<0002103A:00021090>
+Clara and her dad made up, and she's currently enjoying college life in San Francisco.
+
+<000210E8:0002112F>
+Clara managed to convince her dad to let her go to a community college.
+
+<000211A3:000211AD>
+helponfarm
+
+<000211F0:00021259>
+With more people visiting Uncle's farm, Susana's flowershop has been getting a boost in business as well.
+
+<000212B1:000212F6>
+Jacob has been spending most of his time helping Susana at her place.
+
+<0002136A:00021377>
+makeupwithdad
+
+<000213BB:0002141F>
+Pops comes up to visit us all the time, but he seems to spend a lot of time visiting Marian as well.
+
+<00021465:00021480>
+Not that I can blame him...
+
+<000214D8:00021527>
+Marian still writes poetry, and I hear that she's working on publishing a book.
+
+<00021596:0002159E>
+dissolve
+
+<000215BF:000215C5>
+i_jill
+
+<000215CA:000215CF>
+smile
+
+<000215DE:000215E7>
+scale(.8)
+
+<000215F1:00021611>
+Position(xalign=.5,yalign=-.05) 
+
+<00021693:000216AC>
+voice "voices/enj009.ogg"
+
+<000216E4:00021700>
+Hey, Steve. Did you miss me?
+
+<00021720:00021721>
+j
+
+<0002175C:0002176B>
+es=emo["happy"]
+
+<000217BC:000217D5>
+voice "voices/ens120.ogg"
+
+<0002180D:00021820>
+I always do, Angel.
+
+<00021840:00021841>
+s
+
+<0002186B:0002189B>
+I scoop Jill up in my arms and twirl her around.
+
+<000218E1:00021901>
+She giggles and clings on to me.
+
+<0002194C:00021965>
+voice "voices/enj010.ogg"
+
+<0002199D:000219BE>
+So, what do you want to do today?
+
+<000219DE:000219DF>
+j
+
+<00021A0E:00021A27>
+voice "voices/ens121.ogg"
+
+<00021A5F:00021AC5>
+Hmm...well, Uncle said there's a really romantic spot with a view of the lake about half an hour away.
+
+<00021AE5:00021AE6>
+s
+
+<00021B15:00021B2E>
+voice "voices/ens122.ogg"
+
+<00021B66:00021B83>
+We could have a picnic there.
+
+<00021BA3:00021BA4>
+s
+
+<00021BEC:00021BF4>
+dissolve
+
+<00021C15:00021C1B>
+i_jill
+
+<00021C20:00021C26>
+smile2
+
+<00021C35:00021C3E>
+scale(.8)
+
+<00021C48:00021C68>
+Position(xalign=.5,yalign=-.05) 
+
+<00021CEA:00021D03>
+voice "voices/enj011.ogg"
+
+<00021D3B:00021D66>
+That sounds like a great idea! Shall we go?
+
+<00021D86:00021D87>
+j
+
+<00021DCF:00021DD7>
+dissolve
+
+<00021DFB:00021E01>
+i_jill
+
+<00021E06:00021E0C>
+smile2
+
+<00021E87:00021EE2>
+As Jill collects her things and gets into Uncle's truck, I stop to take in my surroundings.
+
+<00021F28:00021F7B>
+A few months ago, I didn't think I'd ever be this close to her or love her so much.
+
+<00021FC1:00021FF6>
+But this small little town has changed me completely.
+
+<0002203C:0002205A>
+Dear Residents of Fairbrook...
+
+<000220A0:000220B9>
+Thank you for everything.
+
+<00022130:00022138>
+dissolve
+
+<00022159:0002215F>
+i_park
+
+<00022201:0002220E>
+makeupwithdad
+
+<00022252:000222A0>
+My father invested in Uncle's farm and we converted it to a bed and breakfast.
+
+<000222E6:0002234A>
+Now, people from all over the country visit to experience things like planting and harvesting crops.
+
+<00022390:000223DF>
+It's like free help for Uncle, and he delights in cooking for all his visitors.
+
+<00022438:00022498>
+Uncle sold his farm to Clara's father and he and Orpheus moved to a small town near Los Angeles.
+
+<000224DE:000224FD>
+I visit them as often as I can.
+
+<00022571:0002257C>
+aboutfather
+
+<000225C0:00022627>
+It took some convincing, but Clara finally managed to get her father to agree to let her go to college.
+
+<0002266D:000226B2>
+She goes to school with Jill and I, and she loves every minute of it.
+
+<0002270A:0002276A>
+Clara is enrolled in a community college, but she has plans to move to the city after two years.
+
+<000227DE:000227F9>
+helponfarm and poetryreview
+
+<0002283D:0002289B>
+Susana and Marian teamed up to create special flower arrangements that come with poetry cards.
+
+<000228E1:0002290C>
+I send plenty of the romantic ones to Jill.
+
+<00022965:000229A5>
+Jacob has been spending a lot more time at Susana's flower shop.
+
+<000229EB:00022A50>
+Trent doesn't seem to mind, but he seems too preoccupied with trying to woo Marian to notice, anyway.
+
+<00022AC2:00022ACA>
+dissolve
+
+<00022AEB:00022AF1>
+i_jill
+
+<00022AF6:00022AFC>
+normal
+
+<00022B0B:00022B14>
+scale(.8)
+
+<00022B1E:00022B3E>
+Position(xalign=.5,yalign=-.05) 
+
+<00022BC0:00022BD9>
+voice "voices/enj012.ogg"
+
+<00022C11:00022C34>
+Steve, class starts in ten minutes.
+
+<00022C54:00022C55>
+j
+
+<00022C90:00022C9F>
+es=emo["happy"]
+
+<00022CF0:00022D09>
+voice "voices/ens123.ogg"
+
+<00022D42:00022D4D>
+I'm coming!
+
+<00022D6D:00022D6E>
+s
+
+<00022D98:00022DD4>
+I grab Jill's hand and we hurry along the path to our class.
+
+<00022E1A:00022E5D>
+As we pass by a familiar tree, I slow my pace to take in the scene.
+
+<00022EA3:00022ECC>
+This is the place where I first met Jill.
+
+<00022F15:00022F39>
+This is the place where we broke up.
+
+<00022F7F:00022F89>
+And now...
+
+<00022FCF:00023006>
+I grab Jill and give her a passionate kiss on the lips.
+
+<0002306A:00023072>
+dissolve
+
+<00023093:00023099>
+i_jill
+
+<0002309E:000230A3>
+blush
+
+<000230B2:000230BB>
+scale(.8)
+
+<000230C5:000230E5>
+Position(xalign=.5,yalign=-.05) 
+
+<00023167:00023180>
+voice "voices/enj013.ogg"
+
+<000231B9:000231C0>
+O-oh...
+
+<000231E0:000231E1>
+j
+
+<0002320B:00023236>
+I give her hand a gentle tug and tease her.
+
+<00023281:0002329A>
+voice "voices/ens124.ogg"
+
+<000232D3:00023300>
+We'd better hurry, or we'll be late to class!
+
+<00023320:00023321>
+s
+
+<00023369:00023371>
+dissolve
+
+<00023392:00023398>
+i_jill
+
+<0002339D:000233A2>
+happy
+
+<000233B1:000233BA>
+scale(.8)
+
+<000233C4:000233E4>
+Position(xalign=.5,yalign=-.05) 
+
+<00023466:0002347F>
+voice "voices/enj014.ogg"
+
+<000234B8:000234C6>
+Then let's go!
+
+<000234E6:000234E7>
+j
+
+<00023511:0002353F>
+She squeezes my hand and we race off together.
+
+<00023585:000235F7>
+Someday, I hope this will be the place where I'll kneel in front of her, offer her a ring, and hear her say yes...
+
+<0002365C:0002367F>
+renpy.music.stop(fadeout=1)        
+
+<000236D7:000236DE>
+credits
+
+<00023707:0002370E>
+jillend
+
+<00023770:00023774>
+fade
+
+<00023795:000237A0>
+i_apartment
+
+<0002384B:00023858>
+makeupwithdad
+
+<0002389C:000238C2>
+Pops and I managed to work things out.
+
+<0002390B:0002394D>
+He was impressed by how much I had grown while I was in Fairbrook.
+
+<00023996:000239E7>
+We're still not exactly on the best terms, but at least he gives me my space now.
+
+<00023A43:00023A65>
+Pops and I formed an uneasy truce.
+
+<00023AAE:00023AF4>
+Even though I grew a lot in Fairbrook, he still sees me as just a kid.
+
+<00023B6E:00023B95>
+farming and int(new_attributes[1]) > 70
+
+<00023BD9:00023C1E>
+We sold most of the farmland to Clara's father at a discounted price.
+
+<00023C67:00023CA5>
+Uncle still lives comfortably in his house along with Orpheus.
+
+<00023CEE:00023D1B>
+I visit once in awhile to see how he's doing.
+
+<00023D77:00023DDF>
+We sold the farm to Clara's father and Uncle and Orpheus moved to a neighborhood outside of Los Angeles.
+
+<00023E28:00023E47>
+I visit them as often as I can.
+
+<00023EC1:00023EC9>
+jillwork
+
+<00023F0D:00023F3D>
+Jill is spending the semester abroad in Germany.
+
+<00023F86:00023FB0>
+She still calls and writes once in awhile.
+
+<0002400B:00024073>
+Jill and I have managed to patch up our friendship, but we've gone our separate ways in terms of dating.
+
+<000240CC:000240E5>
+voice "voices/enf022.ogg"
+
+<0002411E:00024125>
+Steven.
+
+<00024148:00024149>
+f
+
+<00024194:0002419C>
+dissolve
+
+<000241BD:000241C5>
+i_father
+
+<000241D4:000241DD>
+scale(.5)
+
+<000241E7:00024206>
+Position(xalign=.5,yalign=-.5) 
+
+<0002429A:000242AD>
+es=emo["surprised"]
+
+<00024301:0002431A>
+voice "voices/ens125.ogg"
+
+<00024353:0002435D>
+What's up?
+
+<00024380:00024381>
+s
+
+<000243B0:000243C9>
+voice "voices/enf023.ogg"
+
+<00024402:0002440F>
+They're here.
+
+<00024432:00024433>
+f
+
+<0002445D:00024495>
+My father carries in a beautiful arrangement of flowers.
+
+<000244EF:000244FF>
+es=emo["normal"]
+
+<00024553:0002456C>
+voice "voices/ens126.ogg"
+
+<000245A5:000245C0>
+Put them in the usual spot.
+
+<000245E3:000245E4>
+s
+
+<0002460E:00024643>
+He nods and sets the arrangement on the coffee table.
+
+<000246AD:000246B5>
+dissolve
+
+<000246D9:000246E1>
+i_father
+
+<00024762:0002478D>
+I open the card that came with the flowers.
+
+<000247E7:000247F7>
+es=emo["normal"]
+
+<00024846:0002487C>
+It's a note from Susana updating me on how things are.
+
+<000248EB:000248F9>
+not helponfarm
+
+<0002493C:0002497A>
+Jacob's been spending a lot more time helping out at the shop.
+
+<000249D5:000249F9>
+The flower shop is still doing well.
+
+<00024A73:00024A7E>
+aboutfather
+
+<00024AC1:00024B1A>
+Clara finally convinced her father to let her go to a four-year college in San Francisco.
+
+<00024B75:00024BCD>
+Mr. McFarland is still recovering, and he's agreed to let Clara go to community college.
+
+<00024C47:00024C55>
+likeolderwomen
+
+<00024C98:00024CDB>
+Trent and Marian have started dating, but it's still pretty casual.
+
+<00024D36:00024D7A>
+Marian is currently working on publishing a complete book of poetry.
+
+<00024DCE:00024E02>
+I sit beside the coffee table to admire the flowers.
+
+<00024E4B:00024E8D>
+I can't help but smile at the familiar scent and Susana's message.
+
+<00024EE7:00024EFA>
+es=emo["surprised"]
+
+<00024F4E:00024F67>
+voice "voices/ens127.ogg"
+
+<00024FA0:00024FB3>
+Mixed zinnias, huh?
+
+<00024FD6:00024FD7>
+s
+
+<00025001:00025048>
+The flowers Susana sent represent remembering friends who are far away.
+
+<00025091:000250AC>
+Heh. That is just like her.
+
+<00025106:00025115>
+es=emo["happy"]
+
+<00025169:00025182>
+voice "voices/ens128.ogg"
+
+<000251BB:000251F2>
+Don't worry, Susana. I won't forget any of you, either.
+
+<00025215:00025216>
+s
+
+<00025251:0002526C>
+renpy.music.stop(fadeout=1)
+
+<000252C4:000252CB>
+credits
+
+<000252F4:000252FE>
+stevealone
+
+</poem>

@@ -1,0 +1,883 @@
+<poem>
+<00000123:00000A61>
+
+class Tooltip(object):
+    def __init__(self, x, y, w,h, message):
+        self.w = w
+        self.x = x
+        self.y = y
+        self.h=h
+        self.message = message
+        self.tip = None
+    def show(self):
+        self.tip = ui.frame(xpos=self.x, ypos=self.y, xmaximum=self.w, yminimum=self.h, xfill=True, style='default')
+        ui.vbox(5)
+        ui.text(self.message)
+        ui.close()
+        renpy.restart_interaction()               
+    def hide(self):
+        if self.tip:
+            ui.remove(self.tip)
+            renpy.restart_interaction()
+            self.tip = False
+    def scheduleroverlay():
+        global ingame,activity
+        if ingame==1:
+            ui.frame(xpos=16,ypos=93,xmaximum=992, ymaximum=680, xfill=True,yfill=True,style="default")
+            ui.hbox()
+            for d in range(6):
+                ui.vbox(4)
+                id=0
+                for name,check in activity:
+                    ui.frame(xmaximum=165,xfill=True,ymaximum=64,yfill=True,style="default")
+                    ui.text(name,yalign=0.32,xpos=8,style="sctxt")
+                    id+=1
+                ui.close()
+            ui.close()
+    config.overlay_functions.append(scheduleroverlay)
+renpy.register_bmfont("sched", 22, filename="scheduler.fnt")
+style.create("sctxt","default")
+style.sctxt.font="sched"
+style.sctxt.color = "#000"    
+
+style.create("win0","default")
+style.win0.background= Frame("gfx/windowframe.png",24,24,tile=True)
+style.win0.xpadding=10
+style.win0.ypadding=10
+
+running=1;flowershop=1;library=1;farmhouse=1;relax=1;
+drivein=0;walking=0;dinner=0; extra=0; 
+work=1;cash=50
+waterP=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,]
+
+
+
+
+
+
+
+
+
+
+Sstats=["Culture",25,"Coolness",25,"Romance",25,"Determination",25,"Health",80]
+StatsD=["{b}Culture{/b}\nYour mind and your wits will be sharp if you study the classics, and girls like intelligent guys.","{b}Coolness{/b}\nKeep up to date with what's going on in the big city. Even if you're miles away, you need to stay current.","{b}Romance{/b}\nGirls are attracted to a real gentleman who knows how to be sweet and thoughtful.","{b}Determination{/b}\nIf you work hard and discipline yourself, you'll be a stronger and more reliable person.","{b}Health{/b}\nDon't overwork yourself! If you don't rest once in awhile, your work and your relationships will suffer."]
+
+
+<00000B03:00000B0C>
+scheduler
+
+<00000B49:00000B7E>
+renpy.music.play ("snd/schedule.ogg",if_changed=True)
+
+<00000C79:00000C81>
+dissolve
+
+<00000CB9:00000CBF>
+i_farm
+
+<00000D94:00000DC2>
+Alright, what am I going to do with this week?
+
+<00000E67:00000E6C>
+day=0
+
+<00000EF1:00000EF6>
+loops
+
+<00000F27:00001B39>
+
+
+for i in range(5):
+    if Sstats[i*2+1]>100:
+        Sstats[i*2+1]=100
+    if Sstats[i*2+1]<1:
+        Sstats[i*2+1]=1
+ingame=1
+
+
+weekday=("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday") 
+activity=[  ["Work","work"],["Running","running"],["Flowershop","flowershop"],["Library","library"],["Stay Home","farmhouse"],["Relax","relax"],
+                        ]
+dimage=("i_farm","i_alley","i_flowershop","i_library","i_bedroom","i_bedroom","i_drivein","i_path","i_kitchen","black")
+description=["{b}Work on the farm{/b}\n{size=16}If I spend more time on the plants, I can probably grow a lot more.{/size}",
+                            "{b}Go Jogging{/b}\n{size=16}I hear running is good for your heart. It couldn't hurt to get in shape...{/size}",
+                            "{b}Visit The Flowershop{/b}\n{size=16}Even if I don't need to buy anything  for my crops, I can at least say hi to Susana.{/size}",
+                            "{b}Visit The Library{/b}\n{size=16}Marian could probably recommend some more great books for me.{/size}",
+                            "{b}Stay at Home{/b}\n{size=16}Maybe I'll just catch up with how Jill is doing.{/size}",
+                            "{b}Relax{/b}\n{size=16}I'm so worn out! I just need to sleep today...{/size}",
+                            "","","",
+                            "","","",
+                            ""]
+ui.frame(xpos=10,ypos=16,xmaximum=1004, ymaximum=650, xfill=True,yfill=True,style="win0")
+ui.hbox()
+for d in range(6):
+    ui.vbox(4)
+    ui.textbutton("{size=22}"+weekday[d]+"{/size}",xminimum=165,clicked=None,style="default")
+    id=0
+    for name,check in activity:
+        tt=Tooltip(25,540,600,200,description[id])
+        if eval(check)>0:
+            sf="gfx/%d.png" % id
+            if select[d]==id:
+                ui.imagebutton(sf,im.MatrixColor(sf,im.matrix.brightness(0.15)),clicked=ui.returns((d,id)),role="selected_",hovered=tt.show, unhovered=tt.hide)
+            
+            else:
+                ui.imagebutton(im.MatrixColor(sf,im.matrix.saturation(0.3)*im.matrix.brightness(-0.1)*im.matrix.opacity(0.75)),im.MatrixColor(sf,im.matrix.saturation(0.4)*im.matrix.brightness(0.15)),clicked=ui.returns((d,id)),hovered=tt.show, unhovered=tt.hide)
+        
+        
+        id+=1
+    ui.close()
+ui.close()
+ui.text("{b}Steve's Stats{/b}",xalign=0.9,ypos=480)
+ui.text("{b}Cash: $"+str(cash)+"{/b}",xpos=25,ypos=480)
+tsdl=0
+for i in range(9):
+    tsdl+=seedA[i]
+ui.text("{b}Seedlings: "+str(tsdl)+"{/b}",xpos=250,ypos=480)
+ui.text("{b}Weeks left: "+str(11-weeks)+"{/b}",xpos=475,ypos=480)
+for i in range(5):
+    tt=Tooltip(25,540,600,200,StatsD[i])
+    ui.textbutton(" ",xminimum=280,style="default",xpos=0.7,ypos=520+i*24,clicked=ui.returns((-1,id)),hovered=tt.show, unhovered=tt.hide)
+    ui.text("{size=16}"+str(Sstats[i*2])+"{/size}",xpos=0.7,ypos=520+i*24)
+    ui.text("{size=16}"+str(Sstats[1+i*2])+"{/size}",xalign=0.96,ypos=520+i*24)
+ui.textbutton("{size=32}Start Next Week{/size}",clicked=ui.jumps("validate"),xalign=0.5,yalign=0.98)
+d,id=ui.interact()
+if d>=0:
+    select[d]=id
+
+
+<00001B94:00001B99>
+loops
+
+<00001BDC:00001BE4>
+validate
+
+<00001C15:00001C1D>
+ingame=0
+
+<00001D26:00001D2C>
+day==0
+
+<00001D5B:00001D77>
+And so, another week begins.
+
+<00001DC2:00001DDB>
+And so, another day ends.
+
+<00001E66:00002208>
+
+
+for i in range(25):
+    vegid=terrain[i][0]-10;vegst=terrain[i][1];vegtr=terrain[i][2];vegwt=terrain[i][3];vegpr=terrain[i][4]
+    waterP[i]=0
+    if vegid>=0:
+        
+        if vegwt>25:
+            terrain[i][2]-=1
+            terrain[i][3]-=renpy.random.randint(15,25)
+            if vegwt<0: vegwt=0
+        
+        if vegtr<=vegS[vegid]/2:
+            terrain[i][1]=2
+        if vegtr<=vegS[vegid]/4:
+            terrain[i][1]=3
+        
+        if vegpr>1:
+            terrain[i][1]=2;terrain[i][2]+=1
+        if vegpr>3:
+            terrain[i][1]=1;terrain[i][2]+=2
+    else:
+        
+        if renpy.random.randint(0,8)==3:
+            terrain[i][0]=renpy.random.randint(1,5)
+            if terrain[i][1]<3:
+                terrain[i][1]+=1
+
+renpy.scene()
+renpy.show("black")
+renpy.with_statement(dissolve)
+afternoonwork=False
+ui.text("{size=32}"+weekday[day]+" Morning{/size}",xalign=0.5,yalign=0.5)
+renpy.pause(2)
+
+
+<00002309:00002310>
+FarmSim
+
+<0000236A:0000241A>
+
+renpy.scene()
+renpy.show("black")
+renpy.with_statement(dissolve)
+afternoonwork=True
+ui.text("{size=32}"+weekday[day]+" Afternoon{/size}",xalign=0.5,yalign=0.5)
+renpy.pause(2)
+
+
+<000024BA:000024C8>
+Sstats[9] < 20
+
+<00002554:00002559>
+tired
+
+<000025C0:000025D8>
+activity[select[day]][1]
+
+<0000262A:00002630>
+day+=1
+
+<00002692:00002698>
+day==6
+
+<000026D1:000026DB>
+weeks += 1
+
+<0000277D:00002786>
+weeks < 4
+
+<000027B5:000027E2>
+Wow...still trying to get used to being here.
+
+<00002817:00002820>
+weeks < 8
+
+<0000284F:00002867>
+And another week passes.
+
+<0000289C:000028A6>
+weeks < 10
+
+<000028D5:000028F8>
+Summer will be over soon, won't it?
+
+<0000292D:00002938>
+weeks == 10
+
+<00002967:0000296F>
+aloneend
+
+<000029EA:000029F3>
+scheduler
+
+<00002A2F:00002A37>
+validate
+
+<00002A76:00002A7D>
+running
+
+<00002ABD:00002AD8>
+i=renpy.random.randint(0,9)
+
+<00002B92:00002B9E>
+not firstrun
+
+<00002BEC:00002BFA>
+Sstats[9] -=10
+
+<00002C6B:00002C79>
+clara_firstrun
+
+<00002C9C:00002C9F>
+cl1
+
+<00002CFA:00002D08>
+i<Sstats[7]/10
+
+<00002D4A:00002DAB>
+My legs feel like rubber...but I feel like I did okay today. I'm glad I stuck with it to the end!
+
+<00002DFF:00002E0C>
+Sstats[7]+=15
+
+<00002E6D:00002EAB>
+Ugh...I don't think I want to do that again for a long time...
+
+<00002EF4:00002F14>
+Sstats[7] > 34 and not meetjacob
+
+<00002FB8:00002FC7>
+clara_meetjacob
+
+<00003053:00003070>
+Sstats[7] > 42 and not sports
+
+<00003114:00003120>
+clara_sports
+
+<0000316C:0000318B>
+talktoclara and not aboutfather
+
+<0000322F:00003240>
+clara_aboutfather
+
+<0000328C:000032CF>
+Sstats[7] > 52 and talkwithjacob and meettrent and not fatherinjury
+
+<00003373:00003385>
+clara_fatherinjury
+
+<000033D1:000033F0>
+claraflowers and not gotflowers
+
+<00003454:00003464>
+clara_gotflowers
+
+<000034B0:000034DC>
+Sstats[7] > 65 and fatherinjury and not hurt
+
+<00003580:0000358A>
+clara_hurt
+
+<000035D6:00003612>
+Sstats[3] > 80 and int(new_attributes[PClara]) > 85 and hurt
+
+<00003653:0000365D>
+clara_date
+
+<000036BB:000036C8>
+Sstats[9] -=3
+
+<00003739:00003741>
+dissolve
+
+<00003769:0000376F>
+i_farm
+
+<000037FB:00003829>
+I stop by Clara's place and knock on the door.
+
+<0000388A:00003892>
+dissolve
+
+<000038CD:000038DA>
+i_clarasporty
+
+<000038E9:000038F2>
+scale(.5)
+
+<000038FC:0000391D>
+Position(xalign=0.55,yalign=-.3) 
+
+<000039A1:000039B9>
+Hey Steve! Ready to run?
+
+<000039D9:000039DA>
+c
+
+<00003A12:00003A21>
+es=emo["happy"]
+
+<00003A73:00003A7B>
+You bet!
+
+<00003A9B:00003A9C>
+s
+
+<00003B24:00003B2C>
+dissolve
+
+<00003B54:00003B5A>
+i_path
+
+<00003C0B:00003C19>
+i<Sstats[7]/10
+
+<00003C80:00003C8E>
+Sstats[7] > 50
+
+<00003CD0:00003D34>
+It's a lot easier to keep up with Clara these, days. I don't feel like giving up so quickly anymore.
+
+<00003D7C:00003DD1>
+Plus it's great to be able to talk with someone who's willing to joke around with me.
+
+<00003E35:00003E42>
+Sstats[9] -=2
+
+<00003E94:00003EDB>
+Through some miraculous event or other, I manage to keep up with Clara.
+
+<00003F23:00003F53>
+I'm completely worn out, but at least I made it.
+
+<00003FA7:00003FB5>
+Sstats[7] += 4
+
+<0000401E:0000402C>
+Sstats[7] += 7
+
+<000040B2:000040C0>
+Sstats[7] > 50
+
+<00004101:00004181>
+For some reason, I just can't keep up with Clara today. It should be easier for me by now, but I guess I'm just really worn out.
+
+<000041E5:000041F2>
+Sstats[9] -=2
+
+<00004244:000042E0>
+I try to keep up, but it's hard work trying to keep pace with a girl like her. I decide to just walk the final stretch while she runs ahead of me, laughing.
+
+<00004395:0000439C>
+library
+
+<000043DC:000043F7>
+i=renpy.random.randint(0,9)
+
+<00004472:0000447F>
+not firstread
+
+<000044CF:000044DC>
+Sstats[9] -=5
+
+<00004550:00004561>
+marian_firstvisit
+
+<000045AB:000045CB>
+marianflowers and not gotflowers
+
+<00004632:00004643>
+marian_gotflowers
+
+<00004690:000046B1>
+Sstats[1] > 29 and not shelfbooks
+
+<00004718:00004729>
+marian_shelfbooks
+
+<00004776:00004798>
+Sstats[1] > 34 and not aboutfamily
+
+<000047FF:00004811>
+marian_aboutfamily
+
+<0000485E:00004889>
+jillwork and jilluseless and not marianchat
+
+<000048F0:00004900>
+marian_aboutjill
+
+<0000494D:00004971>
+Sstats[1] > 49 and not writingpoetry
+
+<000049D8:000049EC>
+marian_writingpoetry
+
+<00004A39:00004A5A>
+Sstats[1] > 57 and not poemreview
+
+<00004AC1:00004AD2>
+marian_poemreview
+
+<00004B1F:00004B42>
+Sstats[1] > 70 and not secondreview
+
+<00004BE9:00004BFC>
+marian_secondreview
+
+<00004C49:00004C8E>
+secondreview and Sstats[5] > 80 and int(new_attributes[PMarian]) > 85
+
+<00004CD1:00004CDC>
+marian_date
+
+<00004D3B:00004D48>
+Sstats[9] -=1
+
+<00004DB8:00004DC0>
+dissolve
+
+<00004DE9:00004DF2>
+i_library
+
+<00004EDC:00004EE4>
+dissolve
+
+<00004F10:00004F18>
+i_marian
+
+<00004F1D:00004F24>
+normal1
+
+<00004F33:00004F3C>
+scale(.6)
+
+<00004F46:00004F4A>
+top 
+
+<00004FD6:0000503A>
+I drop by the library to say hi to Marian, check out some books, and hear some of her latest poetry.
+
+<00005086:000050B1>
+Welcome back, Steve. Make yourself at home.
+
+<000050D4:000050D5>
+m
+
+<0000510E:0000511D>
+es=emo["happy"]
+
+<00005174:0000517B>
+Thanks!
+
+<0000519E:0000519F>
+s
+
+<000051F2:00005200>
+i<Sstats[1]/10
+
+<0000526A:00005276>
+Sstats[1]>50
+
+<000052B9:00005333>
+The library feels like a second home to me these days. I race through all the books Marian suggests, taking in every word.
+
+<00005398:000053A5>
+Sstats[9] -=1
+
+<000053F9:0000547A>
+I feel like I really learned a lot today. Marian is very thoughtful and intelligent, and listening to her speak is very soothing.
+
+<000054CF:000054DD>
+Sstats[1] += 4
+
+<00005548:00005554>
+Sstats[1]+=7
+
+<000055DD:000055E9>
+Sstats[1]>50
+
+<0000562C:00005699>
+It was really hard to concentrate today. Even though I enjoy reading, I guess it can get tiring after awhile.
+
+<000056FE:0000570B>
+Sstats[9] -=1
+
+<0000575F:000057E1>
+Marian's really smart, but sometimes what she says just goes over my head. I'm not really sure what she was talking about today...
+
+<00005886:00005890>
+flowershop
+
+<000058D1:000058EC>
+i=renpy.random.randint(0,9)
+
+<0000594F:0000595C>
+Sstats[9] -=3
+
+<000059DC:000059E9>
+not firstmeal
+
+<00005A39:00005A46>
+Sstats[9] -=1
+
+<00005B00:00005B10>
+susana_firstmeal
+
+<00005B5D:00005B7C>
+Sstats[5] >34 and not meettrent
+
+<00005BE0:00005BF0>
+susana_meettrent
+
+<00005C3A:00005C55>
+Sstats[5] >39 and not honey
+
+<00005CBC:00005CC8>
+susana_honey
+
+<00005D15:00005D34>
+meetjacob and not talkwithjacob
+
+<00005D9B:00005DA7>
+susana_jacob
+
+<00005DF4:00005E12>
+Sstats[5] >48 and not cupcakes
+
+<00005E79:00005E88>
+susana_cupcakes
+
+<00005ED5:00005EF5>
+fatherinjury and not sendflowers
+
+<00005F5C:00005F6E>
+susana_sendflowers
+
+<00005FBB:00005FDB>
+susanaflowers and not gotflowers
+
+<00006042:00006053>
+susana_gotflowers
+
+<000060A0:000060BE>
+Sstats[5] > 61 and not badmood
+
+<00006125:00006133>
+susana_badmood
+
+<00006180:0000619A>
+Sstats[5] > 70 and not ill
+
+<0000623C:00006246>
+susana_ill
+
+<00006290:000062CC>
+ill and Sstats[1] > 80 and int(new_attributes[PSusana]) > 85
+
+<0000630F:0000631A>
+susana_date
+
+<00006386:0000638E>
+dissolve
+
+<000063B7:000063C3>
+i_flowershop
+
+<00006451:0000648E>
+I stop by the flower shop to help Susana out with her garden.
+
+<000064DB:000064E7>
+i_insideshop
+
+<0000653B:00006543>
+i_susana
+
+<00006548:0000654E>
+happy2
+
+<0000655D:00006567>
+scale(.55)
+
+<00006571:00006591>
+Position(xalign=0.5,yalign=-.05)
+
+<000065F3:000065FB>
+dissolve
+
+<0000662A:00006652>
+Thanks for coming to help me out, Steve.
+
+<00006675:00006677>
+su
+
+<000066B5:000066C4>
+es=emo["happy"]
+
+<0000671B:00006727>
+My pleasure!
+
+<0000674A:0000674B>
+s
+
+<000067A1:000067AF>
+i<Sstats[5]/10
+
+<0000681C:00006828>
+Sstats[5]>50
+
+<0000686B:000068E8>
+Being in the greenhouse is really relaxing. Susana and I tend to the flowers before sharing some of her home brewed iced tea.
+
+<00006944:00006999>
+It's a bit difficult, but I manage not to hurt any of the flowers in Susana's garden.
+
+<000069F1:000069FE>
+Sstats[9] -=1
+
+<00006A61:00006A70>
+Sstats [5] += 4
+
+<00006ADB:00006AE7>
+Sstats[5]+=7
+
+<00006B73:00006B7F>
+Sstats[5]>50
+
+<00006BC2:00006C2D>
+I tend to some of the flowers in Susana's garden, but I feel a little off today. Maybe I should rest a bit.
+
+<00006C89:00006CDE>
+I do my best to help out, but I can't help but feel I'm just getting in Susana's way.
+
+<00006D36:00006D43>
+Sstats[9] -=2
+
+<00006DD7:00006DDF>
+dissolve
+
+<00006E0B:00006E13>
+i_susana
+
+<00006E22:00006E2C>
+scale(.55)
+
+<00006E36:00006E57>
+Position(xalign=0.5,yalign=-.05) 
+
+<00006EE3:00006F08>
+Was there anything you wanted to buy?
+
+<00006F2B:00006F2D>
+su
+
+<00006F82:00006F91>
+susana_purchase
+
+<00007026:0000702F>
+farmhouse
+
+<000070C0:000070C8>
+dissolve
+
+<000070F1:000070FA>
+i_kitchen
+
+<00007108:00007112>
+scale(.5) 
+
+<000071EE:000071FB>
+Sstats[9] -=1
+
+<0000725E:00007279>
+i=renpy.random.randint(0,9)
+
+<000072F9:00007309>
+firstcall==False
+
+<00007359:00007366>
+Sstats[9] -=1
+
+<000073E0:000073EE>
+jill_firstcall
+
+<0000743B:0000745C>
+Sstats[3] > 34 and not secondcall
+
+<000074C3:000074D2>
+jill_secondcall
+
+<0000751F:00007540>
+Sstats[3] > 49 and not lifeonfarm
+
+<000075A7:000075B9>
+jill_lifeonthefarm
+
+<00007606:00007624>
+jillflowers and not gotflowers
+
+<0000768B:0000769A>
+jill_gotflowers
+
+<000076E7:00007702>
+marianchat and not jillchat
+
+<00007769:0000777E>
+jill_talkedwithmarian
+
+<000077CB:000077EA>
+Sstats[3] > 60 and not aboutdad
+
+<0000784E:0000785B>
+jill_aboutdad
+
+<000078A5:000078C5>
+Sstats[3] > 70 and not childhood
+
+<00007929:00007937>
+jill_childhood
+
+<00007981:000079C1>
+Sstats[7] > 80 and int(new_attributes[PJill]) > 85 and childhood
+
+<00007A04:00007A0D>
+jill_date
+
+<00007A5D:00007A8A>
+I dial Jill's number and she answers quickly.
+
+<00007AEF:00007AF7>
+dissolve
+
+<00007B23:00007B29>
+i_jill
+
+<00007B38:00007B41>
+scale(.8)
+
+<00007B4B:00007B6F>
+Position(xalign=-0.05,yalign=-0.07) 
+
+<00007BF5:00007C00>
+Hey, Steve!
+
+<00007C23:00007C24>
+j
+
+<00007C7A:00007C88>
+i<Sstats[3]/10
+
+<00007CF5:00007D01>
+Sstats[3]>50
+
+<00007D44:00007DA4>
+She and I chat for hours, talking about everything from life on the farm to the latest politics.
+
+<00007E00:00007E7D>
+We chat for awhile, talking about how things are going. She still seems a little distant, but at least she's talking with me.
+
+<00007ED5:00007EE2>
+Sstats[3] +=4
+
+<00007F4D:00007F5A>
+Sstats[3] +=7
+
+<00007FE7:00007FF3>
+Sstats[3]>50
+
+<00008036:00008083>
+We talk for awhile, but it feels like we don't have much to talk about today.
+
+<000080DE:00008120>
+We chat for a bit, but Jill still seems really polite and distant.
+
+<00008183:00008191>
+Sstats[9] -= 1
+
+<0000823C:00008241>
+relax
+
+<00008292:0000829A>
+dissolve
+
+<000082C3:000082D1>
+i_bedroomnight
+
+<0000836B:00008388>
+i=renpy.random.randint(10,50)
+
+<0000842B:00008437>
+Sstats[9]+=i
+
+<000084B7:000084BB>
+i<25
+
+<000084FE:00008562>
+I take a quick nap, but I still feel exhausted. I guess I'll just spend the rest of the day resting.
+
+<000085BD:00008607>
+I can't believe I slept all afternoon! But man, I feel so much better now!
+
+<0000869C:000086A0>
+work
+
+<000086E1:000086FD>
+i=renpy.random.randint(0,15)
+
+<000087B7:000087BE>
+FarmSim
+
+<000087E1:000087E5>
+fsm1
+
+</poem>
